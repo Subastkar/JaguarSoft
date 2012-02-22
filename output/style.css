@@ -22,13 +22,56 @@ a:hover {
   color: #f90;
 }
 
-#main {
-  position: absolute;
+#page {
+  width: 1000px;
 
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+span#logo {
+  background: url("/img/logo_header.png");
+  width: 200px;
+  height: 90px;
+  margin: 0 0;
+  float:left;
+}
+
+span#logo a, span#logo a:visited, span#logo a:hover, span#logo a:link, span#logo a:active {
+	position: relative;
+	display:block;
+	margin: auto;
+  width: 200px;
+  height: 90px;
+	text-indent:-9999px;
+	text-decoration:none;
+	color:black;
+	float:left;
+}
+
+span#logoitc {
+  background: url("/img/logo-itc.png");
+  width: 70px;
+  height: 68px;
+  margin: 0 0;
+  float:left;
+}
+
+span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:link, span#logoitc a:active {
+	position: relative;
+	display:block;
+	margin: auto;
+  width: 70px;
+  height: 68px;
+	text-indent:-9999px;
+	text-decoration:none;
+	color:black;
+	float:left;
+}
+#main {
   top: 40px;
   left: 280px;
 
-  width: 500px;
 }
 
 #main h1 {
@@ -63,8 +106,6 @@ a:hover {
 }
 
 #sidebar {
-  position: absolute;
-
   top: 40px;
   left: 20px;
   width: 200px;
@@ -74,6 +115,9 @@ a:hover {
   border-right: 1px solid #ccc;
 
   text-align: right;
+
+  display: block;
+  float: left;
 }
 
 #sidebar h2 {
