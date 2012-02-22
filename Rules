@@ -13,21 +13,26 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile '/stylesheet/' do
+compile '/stylesheet/*/' do
   # don’t filter or layout
+  filter :sass
 end
 
 compile '*' do
   if item.binary?
     # don’t filter binary items
   else
-    filter :erb
+    filter :haml
     layout 'default'
   end
 end
 
-route '/stylesheet/' do
-  '/style.css'
+#route '/stylesheet/' do
+  #'/style.css'
+#end
+#
+route '/stylesheets/*/' do
+  item.identifier.chop + '.css' # so that the /assets/style/screen/ item is compiled to /assets/style/screen.css
 end
 
 route '*' do
@@ -40,4 +45,4 @@ route '*' do
   end
 end
 
-layout '*', :erb
+layout '*', :haml, :format => :html5
