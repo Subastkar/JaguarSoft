@@ -25,13 +25,13 @@
         %span(id="logoitc")
           %a(href="www.itcolima.edu.mx") Instituto Tecnol&oacute;gico de Colima
       %div(id="menubar")
-        %a(href="index.html") Home
-        %a(href="#") Projects
-        %a(href="acercade.html") About Us
+        %a(href="index.html" id="corner") Inicio
+        %a(href="#") Proyectos
+        %a(href="acercade.html") Acerca de ...
 
-        %a(href="#") Technology Solutions
+        %a(href="#") Soluciones Tecnol&oacute;gicas
         %a(href="#" class="button" onMouseOver="javascript:showElement('v-menu')")
-          %span Community
+          %span Comunidad
       %div(id="v-menu" style="display:none;")
         %ul
           %li
@@ -41,3 +41,4 @@
       %div(id="content")
         = yield
       %div(id="footer")
+        = @item[:author]

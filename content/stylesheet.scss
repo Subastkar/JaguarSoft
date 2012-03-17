@@ -97,16 +97,40 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
 	color:white;
 }
 
+#menubar a:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: #383838 solid 2px;
+	text-decoration:none;
+	color:white;
+  background-color: #868686;
+}
+
+a#corner:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: #383838 solid 2px;
+	text-decoration:none;
+	color:white;
+  background-color: #868686;
+  border-radius: 1em 0 0 1em;
+}
+
 div#v-menu{
   background-color: #585858;
   border-radius: 0em 0em 1em 1em;
   width: 150px;
   height: 60px;
   float: left;
-  margin-left: 580px;
+  margin-left: 660px;
   border-top: #383838 solid 2px;
   display: block;
   position: absolute;
+
 }
 
 #v-menu li{
@@ -118,9 +142,17 @@ div#v-menu{
 }
 
 #v-menu a{
+  padding: 0 50px 0 0 ;
 	text-decoration:none;
 	color:white;
 }
+
+#v-menu a:hover {
+  padding: 0 50px 0 0 ;
+	text-decoration:none;
+	color:white;
+  background-color: #868686;
+} 
 
 #content{
 	height: 500px;
@@ -145,8 +177,32 @@ div#v-menu{
 
 #footer{
 	font-size:10px;
-	color:#666666;
+	color: white;
 	margin-top:20px;
 	margin-bottom:20px;
 	text-align:center;
+}
+
+.link1 {
+  float: right;
+  padding-right: 25px;
+}
+
+.link1 a,.link1 a:hover, .link1 a:link, .link1 a:active, .link1 a:visited {
+  text-decoration: none;
+  color: #515151;
+  border-left: #515151 solid 1px;
+  border-right:#515151 solid 1px;
+  padding: 5px 5px 5px 5px;
+}
+
+.val {
+  width: 600px;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.val ul {
+  padding-left: 60px;
+  padding-top: 40px;
 }
