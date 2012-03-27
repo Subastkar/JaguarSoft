@@ -23,7 +23,7 @@ body {
 } 
 
 span#logo {
-  background: url("/img/logo_header.png");
+  background: url("../img/logo_header.png");
   width: 270px;
   height: 122px;
   margin-top: 20px;
@@ -44,7 +44,8 @@ span#logo a, span#logo a:visited, span#logo a:hover, span#logo a:link, span#logo
 }
 
 span#logoitc {
-  background: url("/img/logo-itc.png");
+  background: url("../img/logo-itc.png");
+
   width: 100px;
   height: 97px;
   margin-top: 30px;
@@ -126,7 +127,7 @@ div#v-menu{
   width: 150px;
   height: 60px;
   float: left;
-  margin-left: 660px;
+  margin-left: 650px;
   border-top: #383838 solid 2px;
   display: block;
   position: absolute;
