@@ -129,9 +129,13 @@ div#v-menu{
   float: left;
   margin-left: 650px;
   border-top: #383838 solid 2px;
-  display: block;
+  display: none;
   position: absolute;
 
+}
+
+#hidden:hover, #v-menu{
+  display: block;
 }
 
 #v-menu li{

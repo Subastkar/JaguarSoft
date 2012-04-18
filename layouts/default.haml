@@ -6,17 +6,28 @@
       = @item[:title]
     %link(rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen")
     %meta(name="generator" content="nanoc 3.3.0")
-    <script type="text/javascript">
-    function showElement(layer){
-    var myLayer = document.getElementById(layer);
-    if(myLayer.style.display=="none"){
-    myLayer.style.display="block";
-    myLayer.backgroundPosition="top";
-    } else { 
-    myLayer.style.display="none";
-    }
-    }
-    </script>
+    :javascript
+      var hide = false;
+      function showElement(layer){
+      var myLayer = document.getElementById(layer);
+      if(myLayer.style.display=="none"){
+      myLayer.style.display="block";
+      myLayer.backgroundPosition="top";
+      } 
+      }
+      function activeHide(layer){
+      console.log(layer);
+      var myLayer = document.getElementById(layer);
+      if(hide === true)
+      myLayer.style.display="none";
+      }
+      function hideElement(layer){
+      hide=true;
+      setTimeout("activeHide('"+layer+"')", 200);
+      }
+      function cancelHide(){
+      hide=false;
+      }
   %body
     %div(id="main")
       %div(id="header")
@@ -30,14 +41,14 @@
         %a(href="acercade.html") Acerca de ...
 
         %a(href="servicios.html") Soluciones Tecnol&oacute;gicas
-        %a(href="#" class="button" onMouseOver="javascript:showElement('v-menu')")
-          %span Comunidad
+        %a(href="#" class="button" onMouseOver="javascript:showElement('v-menu')" onMouseOut="javascript:hideElement('v-menu')")
+          Comunidad
       %div(id="v-menu" style="display:none;")
         %ul
           %li
-            %a(href="#") DEPI
+            %a(href="#" onMouseOver="javascript:cancelHide()" onMouseOut="javascript:hideElement('v-menu')") DEPI
           %li
-            %a(href="http://grubytec.github.com") GRubyTec
+            %a(href="http://grubytec.github.com" onMouseOver="javascript:cancelHide()" onMouseOut="javascript:hideElement('v-menu')") GRubyTec
       %div(id="content")
         = yield
       %div(id="footer")

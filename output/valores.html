@@ -7,16 +7,32 @@
     </title>
     <link href='stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
     <meta content='nanoc 3.3.0' name='generator'>
-    <script type="text/javascript">
-    function showElement(layer){
-    var myLayer = document.getElementById(layer);
-    if(myLayer.style.display=="none"){
-    myLayer.style.display="block";
-    myLayer.backgroundPosition="top";
-    } else {
-    myLayer.style.display="none";
-    }
-    }
+    <script>
+      //<![CDATA[
+        var hide = false;
+        function showElement(layer){
+        var myLayer = document.getElementById(layer);
+        if(myLayer.style.display=="none"){
+        myLayer.style.display="block";
+        myLayer.backgroundPosition="top";
+        } 
+        }
+        function activeHide(layer){
+        console.log(layer);
+        var myLayer = document.getElementById(layer);
+        console.log('hide activated2');
+        if(hide === true)
+        myLayer.style.display="none";
+        }
+        function hideElement(layer){
+        hide=true;
+        setTimeout("activeHide('"+layer+"')", 200);
+        }
+        function cancelHide(){
+        console.log('hide deactivated');
+        hide=false;
+        }
+      //]]>
     </script>
   </head>
   <body>
@@ -26,7 +42,7 @@
           <a href='#'>JagurSoft</a>
         </span>
         <span id='logoitc'>
-          <a href='www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
+          <a href='http://www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
         </span>
       </div>
       <div id='menubar'>
@@ -34,17 +50,17 @@
         <a href='proyectos.html'>Proyectos</a>
         <a href='acercade.html'>Acerca de ...</a>
         <a href='servicios.html'>Soluciones Tecnol&oacute;gicas</a>
-        <a class='button' href='#' onMouseOver="javascript:showElement('v-menu')">
-          <span>Comunidad</span>
+        <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
+          Comunidad
         </a>
       </div>
       <div id='v-menu' style='display:none;'>
         <ul>
           <li>
-            <a href='#'>DEPI</a>
+            <a href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>DEPI</a>
           </li>
           <li>
-            <a href='grubytec.github.com'>GRubyTec</a>
+            <a href='http://grubytec.github.com' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>GRubyTec</a>
           </li>
         </ul>
       </div>
