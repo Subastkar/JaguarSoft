@@ -160,10 +160,11 @@ div#v-menu{
 } 
 
 #content{
-	height: 500px;
+  min-height: 500px;
   margin-top: 10px;
 	padding-top:40px;
 	padding-left: 20px;
+	padding-bottom: 30px;
 	padding-right: auto;
 	background-color:#FFFFFF;
   border-radius: 1em;
@@ -224,7 +225,29 @@ div#v-menu{
   padding: 5px 10px;
 }
 
+#empresas a,#empresas a:hover, #empresas a:link, #empresas a:active, #empresas a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 .logo_empresas {
   width: 100px;
   height: 100px;
+}
+
+.proyectos {
+  padding-left: 40px;
+}
+
+.proyectos img {
+  padding-left: 130px;
+}
+
+.proyectos ul {
+  padding-left: 35px;
+}
+
+.proyectos li {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

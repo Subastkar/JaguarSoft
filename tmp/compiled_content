@@ -1,4 +1,4 @@
-{:	data{I"/stylesheet/:ET{:default{:	lastI"k* {
+{:	data{!I"/stylesheet/:ET{:default{:	lastI"»* {
   margin: 0;
   padding: 0;
 
@@ -160,10 +160,11 @@ div#v-menu{
 } 
 
 #content{
-	height: 500px;
+  min-height: 500px;
   margin-top: 10px;
 	padding-top:40px;
 	padding-left: 20px;
+	padding-bottom: 30px;
 	padding-right: auto;
 	background-color:#FFFFFF;
   border-radius: 1em;
@@ -224,13 +225,35 @@ div#v-menu{
   padding: 5px 10px;
 }
 
+#empresas a,#empresas a:hover, #empresas a:link, #empresas a:active, #empresas a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 .logo_empresas {
   width: 100px;
   height: 100px;
 }
+
+.proyectos {
+  padding-left: 40px;
+}
+
+.proyectos img {
+  padding-left: 130px;
+}
+
+.proyectos ul {
+  padding-left: 35px;
+}
+
+.proyectos li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 ;T:raw@
 :pre@
-I"/;T{;{	;I"Y	<!DOCTYPE html>
+I"/;T{;{	;I"	<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -252,7 +275,6 @@ I"/;T{;{	;I"Y	<!DOCTYPE html>
         function activeHide(layer){
         console.log(layer);
         var myLayer = document.getElementById(layer);
-        console.log('hide activated2');
         if(hide === true)
         myLayer.style.display="none";
         }
@@ -261,7 +283,6 @@ I"/;T{;{	;I"Y	<!DOCTYPE html>
         setTimeout("activeHide('"+layer+"')", 200);
         }
         function cancelHide(){
-        console.log('hide deactivated');
         hide=false;
         }
       //]]>
@@ -1676,7 +1697,7 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
   //line-height: 20px; 
 //}
 ;T;
-@8I"/acercade/;T{;{	;I"h<!DOCTYPE html>
+@8I"/acercade/;T{;{	;I"<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -1698,7 +1719,6 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
         function activeHide(layer){
         console.log(layer);
         var myLayer = document.getElementById(layer);
-        console.log('hide activated2');
         if(hide === true)
         myLayer.style.display="none";
         }
@@ -1707,7 +1727,6 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
         setTimeout("activeHide('"+layer+"')", 200);
         }
         function cancelHide(){
-        console.log('hide deactivated');
         hide=false;
         }
       //]]>
@@ -1788,7 +1807,7 @@ I"˚<div class='link1'>
 <div class='side-img'>
   Insert image here
 </div>
-;T;@=I"/mision/;T{;{	;I"É<!DOCTYPE html>
+;T;@=I"/mision/;T{;{	;I"2<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -1810,7 +1829,6 @@ I"˚<div class='link1'>
         function activeHide(layer){
         console.log(layer);
         var myLayer = document.getElementById(layer);
-        console.log('hide activated2');
         if(hide === true)
         myLayer.style.display="none";
         }
@@ -1819,7 +1837,6 @@ I"˚<div class='link1'>
         setTimeout("activeHide('"+layer+"')", 200);
         }
         function cancelHide(){
-        console.log('hide deactivated');
         hide=false;
         }
       //]]>
@@ -1900,7 +1917,7 @@ I"<div class='link1'>
 <div class='side-img'>
   Insert image here
 </div>
-;T;@CI"/vision/;T{;{	;I"}<!DOCTYPE html>
+;T;@CI"/vision/;T{;{	;I",<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -1922,7 +1939,6 @@ I"<div class='link1'>
         function activeHide(layer){
         console.log(layer);
         var myLayer = document.getElementById(layer);
-        console.log('hide activated2');
         if(hide === true)
         myLayer.style.display="none";
         }
@@ -1931,7 +1947,6 @@ I"<div class='link1'>
         setTimeout("activeHide('"+layer+"')", 200);
         }
         function cancelHide(){
-        console.log('hide deactivated');
         hide=false;
         }
       //]]>
@@ -2012,7 +2027,7 @@ I"<div class='link1'>
 <div class='side-img'>
   Insert image here
 </div>
-;T;@II"/valores/;T{;{	;I"\<!DOCTYPE html>
+;T;@II"/valores/;T{;{	;I"<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2034,7 +2049,6 @@ I"<div class='link1'>
         function activeHide(layer){
         console.log(layer);
         var myLayer = document.getElementById(layer);
-        console.log('hide activated2');
         if(hide === true)
         myLayer.style.display="none";
         }
@@ -2043,7 +2057,6 @@ I"<div class='link1'>
         setTimeout("activeHide('"+layer+"')", 200);
         }
         function cancelHide(){
-        console.log('hide deactivated');
         hide=false;
         }
       //]]>
@@ -2182,7 +2195,7 @@ I"?<div class='link1'>
 <div class='side-img'>
   Insert image here
 </div>
-;T;@OI"/servicios/;T{;{	;I"ç<!DOCTYPE html>
+;T;@OI"/servicios/;T{;{	;I"<<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2204,7 +2217,6 @@ I"?<div class='link1'>
         function activeHide(layer){
         console.log(layer);
         var myLayer = document.getElementById(layer);
-        console.log('hide activated2');
         if(hide === true)
         myLayer.style.display="none";
         }
@@ -2213,7 +2225,6 @@ I"?<div class='link1'>
         setTimeout("activeHide('"+layer+"')", 200);
         }
         function cancelHide(){
-        console.log('hide deactivated');
         hide=false;
         }
       //]]>
@@ -2282,7 +2293,7 @@ I"@<div class='services'>
   <p>Mantenimiento preventivo y correctivo de equipo de c&oacute;mputo.</p>
   <p>Consutlr&iacute;, asesor&iacute; en TIC's.</p>
 </div>
-;T;@UI"/proyectos/;T{;{	;I"Ç<!DOCTYPE html>
+;T;@UI"/proyectos/;T{;{	;I"	<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2304,7 +2315,6 @@ I"@<div class='services'>
         function activeHide(layer){
         console.log(layer);
         var myLayer = document.getElementById(layer);
-        console.log('hide activated2');
         if(hide === true)
         myLayer.style.display="none";
         }
@@ -2313,7 +2323,6 @@ I"@<div class='services'>
         setTimeout("activeHide('"+layer+"')", 200);
         }
         function cancelHide(){
-        console.log('hide deactivated');
         hide=false;
         }
       //]]>
@@ -2361,19 +2370,27 @@ I"@<div class='services'>
             </td>
           </tr>
           <tr>
-            <td>Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.</td>
+            <td>
+              <a href='siiseem.html'>Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.</a>
+            </td>
             <td>Sistema para el &aacute;area comercial.</td>
           </tr>
           <tr>
-            <td>Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.</td>
+            <td>
+              <a href='preeabc.html'>Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.</a>
+            </td>
             <td>M&oacute;dulo solicitudes y contrato.</td>
           </tr>
           <tr>
-            <td>Sistemade alertas fitosanitarias para el estado de colima.</td>
+            <td>
+              <a href='safec.html'>Sistemade alertas fitosanitarias para el estado de colima.</a>
+            </td>
             <td>M&oacute;dulo convenios y rrequerimientos.</td>
           </tr>
           <tr>
-            <td>Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.</td>
+            <td>
+              <a href='rimdm.html'>Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.</a>
+            </td>
             <td>M&oacute;dulo generaci&oacute;n de recibos.</td>
           </tr>
           <tr>
@@ -2400,7 +2417,7 @@ I"@<div class='services'>
     </div>
   </body>
 </html>
-;T;	I"K%table#empresas
+;T;	I"¿%table#empresas
   %tr
     %td(align='center') 
       %h2 SEDER
@@ -2409,16 +2426,20 @@ I"@<div class='services'>
       %h2 CIAPACOV
       %img(src="img/ciapacov.png" class="logo_empresas")
   %tr
-    %td Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.
+    %td 
+      %a(href="siiseem.html") Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.
     %td Sistema para el &aacute;area comercial.
   %tr
-    %td Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.
+    %td
+      %a(href="preeabc.html") Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.
     %td M&oacute;dulo solicitudes y contrato.
   %tr
-    %td Sistemade alertas fitosanitarias para el estado de colima.
+    %td
+      %a(href="safec.html") Sistemade alertas fitosanitarias para el estado de colima.
     %td M&oacute;dulo convenios y rrequerimientos.
   %tr
-    %td Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.
+    %td
+      %a(href="rimdm.html") Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.
     %td M&oacute;dulo generaci&oacute;n de recibos.
   %tr
     %td SIG-V-TEC
@@ -2432,7 +2453,7 @@ I"@<div class='services'>
   %tr
     %td Mercado agr&iacute;cola virtual.
     %td;T;
-I"<table id='empresas'>
+I"µ<table id='empresas'>
   <tr>
     <td align='center'>
       <h2>SEDER</h2>
@@ -2444,19 +2465,27 @@ I"<table id='empresas'>
     </td>
   </tr>
   <tr>
-    <td>Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.</td>
+    <td>
+      <a href='siiseem.html'>Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.</a>
+    </td>
     <td>Sistema para el &aacute;area comercial.</td>
   </tr>
   <tr>
-    <td>Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.</td>
+    <td>
+      <a href='preeabc.html'>Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.</a>
+    </td>
     <td>M&oacute;dulo solicitudes y contrato.</td>
   </tr>
   <tr>
-    <td>Sistemade alertas fitosanitarias para el estado de colima.</td>
+    <td>
+      <a href='safec.html'>Sistemade alertas fitosanitarias para el estado de colima.</a>
+    </td>
     <td>M&oacute;dulo convenios y rrequerimientos.</td>
   </tr>
   <tr>
-    <td>Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.</td>
+    <td>
+      <a href='rimdm.html'>Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.</a>
+    </td>
     <td>M&oacute;dulo generaci&oacute;n de recibos.</td>
   </tr>
   <tr>
@@ -2476,4 +2505,673 @@ I"<table id='empresas'>
     <td></td>
   </tr>
 </table>
-;T;@[I"/img/ciapacov/;T{;{ I"/img/colima_late/;T{;{ :versioni
+;T;@[I"/img/ciapacov/;T{;{ I"/img/colima_late/;T{;{ I"/img/siiseem/;T{;{ I"/seder/siiseem/;T{;{	;I"Z<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      
+    </title>
+    <link href='stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <meta content='nanoc 3.3.0' name='generator'>
+    <script>
+      //<![CDATA[
+        var hide = false;
+        function showElement(layer){
+        var myLayer = document.getElementById(layer);
+        if(myLayer.style.display=="none"){
+        myLayer.style.display="block";
+        myLayer.backgroundPosition="top";
+        } 
+        }
+        function activeHide(layer){
+        console.log(layer);
+        var myLayer = document.getElementById(layer);
+        if(hide === true)
+        myLayer.style.display="none";
+        }
+        function hideElement(layer){
+        hide=true;
+        setTimeout("activeHide('"+layer+"')", 200);
+        }
+        function cancelHide(){
+        hide=false;
+        }
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <span id='logo'>
+          <a href='#'>JagurSoft</a>
+        </span>
+        <span id='logoitc'>
+          <a href='http://www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
+        </span>
+      </div>
+      <div id='menubar'>
+        <a href='index.html' id='corner'>Inicio</a>
+        <a href='proyectos.html'>Proyectos</a>
+        <a href='acercade.html'>Acerca de ...</a>
+        <a href='servicios.html'>Soluciones Tecnol&oacute;gicas</a>
+        <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
+          Comunidad
+        </a>
+      </div>
+      <div id='v-menu' style='display:none;'>
+        <ul>
+          <li>
+            <a href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>DEPI</a>
+          </li>
+          <li>
+            <a href='http://grubytec.github.com' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>GRubyTec</a>
+          </li>
+        </ul>
+      </div>
+      <div id='content'>
+        <link href='../stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css' />
+        <div class='proyectos'>
+          <h1>Sistema de Intercambio de Informaci&oacute;n Segura Entre Equipos M&oacute;viles</h1>
+          <h3>Objetivo</h3>
+          <br />
+          <p>Implementar un sistema que permita el intercambio y visualizaci&oacute;n segura de informaci&oacute;n a trav&eacute;s de dispositivos m&oacute;viles.</p>
+          <br />
+          <br />
+          <img height='300px' src='../img/siiseem.jpg' width='400px' />
+          <br />
+          <br />
+          <h3>Ventajas</h3>
+          <br />
+          <ul>
+            <li>Automatizar agenda del personal directivo.</li>
+            <li>Permitir el intercambio de informaci&oacute;n en tiempo real entre el personal directivo de la SEDER.</li>
+            <li>Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.</li>
+          </ul>
+        </div>
+      </div>
+      <div id='footer'>
+        
+      </div>
+    </div>
+  </body>
+</html>
+;T;	I"%link(rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen")
+%div(class="proyectos")
+  %h1 Sistema de Intercambio de Informaci&oacute;n Segura Entre Equipos M&oacute;viles
+  
+  %h3 Objetivo
+  %br
+  %p  Implementar un sistema que permita el intercambio y visualizaci&oacute;n segura de informaci&oacute;n a trav&eacute;s de dispositivos m&oacute;viles.
+  
+  %br
+  %br
+
+  %img(src="../img/siiseem.jpg" width="400px" height="300px")
+  %br
+  %br
+  
+  %h3 Ventajas
+  %br
+  %ul
+    %li Automatizar agenda del personal directivo.
+    %li Permitir el intercambio de informaci&oacute;n en tiempo real entre el personal directivo de la SEDER.
+    %li Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.
+
+
+
+;T;
+I"P<link href='../stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css' />
+<div class='proyectos'>
+  <h1>Sistema de Intercambio de Informaci&oacute;n Segura Entre Equipos M&oacute;viles</h1>
+  <h3>Objetivo</h3>
+  <br />
+  <p>Implementar un sistema que permita el intercambio y visualizaci&oacute;n segura de informaci&oacute;n a trav&eacute;s de dispositivos m&oacute;viles.</p>
+  <br />
+  <br />
+  <img height='300px' src='../img/siiseem.jpg' width='400px' />
+  <br />
+  <br />
+  <h3>Ventajas</h3>
+  <br />
+  <ul>
+    <li>Automatizar agenda del personal directivo.</li>
+    <li>Permitir el intercambio de informaci&oacute;n en tiempo real entre el personal directivo de la SEDER.</li>
+    <li>Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.</li>
+  </ul>
+</div>
+;T;@jI"/siiseem/;T{;{	;I"Ç<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      JaguarSoft
+    </title>
+    <link href='stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <meta content='nanoc 3.3.0' name='generator'>
+    <script>
+      //<![CDATA[
+        var hide = false;
+        function showElement(layer){
+        var myLayer = document.getElementById(layer);
+        if(myLayer.style.display=="none"){
+        myLayer.style.display="block";
+        myLayer.backgroundPosition="top";
+        } 
+        }
+        function activeHide(layer){
+        console.log(layer);
+        var myLayer = document.getElementById(layer);
+        if(hide === true)
+        myLayer.style.display="none";
+        }
+        function hideElement(layer){
+        hide=true;
+        setTimeout("activeHide('"+layer+"')", 200);
+        }
+        function cancelHide(){
+        hide=false;
+        }
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <span id='logo'>
+          <a href='#'>JagurSoft</a>
+        </span>
+        <span id='logoitc'>
+          <a href='http://www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
+        </span>
+      </div>
+      <div id='menubar'>
+        <a href='index.html' id='corner'>Inicio</a>
+        <a href='proyectos.html'>Proyectos</a>
+        <a href='acercade.html'>Acerca de ...</a>
+        <a href='servicios.html'>Soluciones Tecnol&oacute;gicas</a>
+        <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
+          Comunidad
+        </a>
+      </div>
+      <div id='v-menu' style='display:none;'>
+        <ul>
+          <li>
+            <a href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>DEPI</a>
+          </li>
+          <li>
+            <a href='http://grubytec.github.com' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>GRubyTec</a>
+          </li>
+        </ul>
+      </div>
+      <div id='content'>
+        <div class='proyectos'>
+          <h2>Sistema de Intercambio de Informaci&oacute;n Segura Entre Equipos M&oacute;viles</h2>
+          <br />
+          <h3>Objetivo</h3>
+          <br />
+          <p>Implementar un sistema que permita el intercambio y visualizaci&oacute;n segura de informaci&oacute;n a trav&eacute;s de dispositivos m&oacute;viles.</p>
+          <br />
+          <br />
+          <h3>Esquema de funcionamiento</h3>
+          <br />
+          <img height='300px' src='img/siiseem.jpg' width='400px' />
+          <br />
+          <br />
+          <h3>Ventajas</h3>
+          <br />
+          <ul>
+            <li>Automatizar agenda del personal directivo.</li>
+            <li>Permitir el intercambio de informaci&oacute;n en tiempo real entre el personal directivo de la SEDER.</li>
+            <li>Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.</li>
+          </ul>
+        </div>
+      </div>
+      <div id='footer'>
+        &copy; Todos los derechos reservados a JaguarSoft (2012)
+      </div>
+    </div>
+  </body>
+</html>
+;T;	I"›%div(class="proyectos")
+  %h2 Sistema de Intercambio de Informaci&oacute;n Segura Entre Equipos M&oacute;viles
+  %br
+
+  %h3 Objetivo
+  %br
+  %p  Implementar un sistema que permita el intercambio y visualizaci&oacute;n segura de informaci&oacute;n a trav&eacute;s de dispositivos m&oacute;viles.
+  
+  %br
+  %br
+
+  %h3 Esquema de funcionamiento
+  %br
+  %img(src="img/siiseem.jpg" width="400px" height="300px")
+  %br
+  %br
+  
+  %h3 Ventajas
+  %br
+  %ul
+    %li Automatizar agenda del personal directivo.
+    %li Permitir el intercambio de informaci&oacute;n en tiempo real entre el personal directivo de la SEDER.
+    %li Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.;T;
+I"&<div class='proyectos'>
+  <h2>Sistema de Intercambio de Informaci&oacute;n Segura Entre Equipos M&oacute;viles</h2>
+  <br />
+  <h3>Objetivo</h3>
+  <br />
+  <p>Implementar un sistema que permita el intercambio y visualizaci&oacute;n segura de informaci&oacute;n a trav&eacute;s de dispositivos m&oacute;viles.</p>
+  <br />
+  <br />
+  <h3>Esquema de funcionamiento</h3>
+  <br />
+  <img height='300px' src='img/siiseem.jpg' width='400px' />
+  <br />
+  <br />
+  <h3>Ventajas</h3>
+  <br />
+  <ul>
+    <li>Automatizar agenda del personal directivo.</li>
+    <li>Permitir el intercambio de informaci&oacute;n en tiempo real entre el personal directivo de la SEDER.</li>
+    <li>Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.</li>
+  </ul>
+</div>
+;T;@pI"/preeabc/;T{;{	;I"é<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      JaguarSoft
+    </title>
+    <link href='stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <meta content='nanoc 3.3.0' name='generator'>
+    <script>
+      //<![CDATA[
+        var hide = false;
+        function showElement(layer){
+        var myLayer = document.getElementById(layer);
+        if(myLayer.style.display=="none"){
+        myLayer.style.display="block";
+        myLayer.backgroundPosition="top";
+        } 
+        }
+        function activeHide(layer){
+        console.log(layer);
+        var myLayer = document.getElementById(layer);
+        if(hide === true)
+        myLayer.style.display="none";
+        }
+        function hideElement(layer){
+        hide=true;
+        setTimeout("activeHide('"+layer+"')", 200);
+        }
+        function cancelHide(){
+        hide=false;
+        }
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <span id='logo'>
+          <a href='#'>JagurSoft</a>
+        </span>
+        <span id='logoitc'>
+          <a href='http://www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
+        </span>
+      </div>
+      <div id='menubar'>
+        <a href='index.html' id='corner'>Inicio</a>
+        <a href='proyectos.html'>Proyectos</a>
+        <a href='acercade.html'>Acerca de ...</a>
+        <a href='servicios.html'>Soluciones Tecnol&oacute;gicas</a>
+        <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
+          Comunidad
+        </a>
+      </div>
+      <div id='v-menu' style='display:none;'>
+        <ul>
+          <li>
+            <a href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>DEPI</a>
+          </li>
+          <li>
+            <a href='http://grubytec.github.com' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>GRubyTec</a>
+          </li>
+        </ul>
+      </div>
+      <div id='content'>
+        <div class='proyectos'>
+          <h2>Prototipo de Red Estatal de Estaciones Agroclimatol&oacute;gicas de Bajo Costo</h2>
+          <br />
+          <h3>Objetivo</h3>
+          <br />
+          <p>Implementar un prototipo de red estatal de estaciones agroclim&aacute;ticas de bajo costo, para la Secretar&iacute;a de Desarrollo Rural del Estado de Colima.</p>
+          <br />
+          <br />
+          <h3>Esquema de funcionamiento</h3>
+          <br />
+          <img height='300px' src='img/preeabc.png' width='400px' />
+          <br />
+          <br />
+          <h3>Ventajas</h3>
+          <br />
+          <ul>
+            <li>Bajo costo.</li>
+            <li>Mayor cobertura.</li>
+            <li>Informaci&oacute;n en tiempo real.</li>
+            <li>Precisi&oacute;n de la informaci&oacute;n.</li>
+            <li>Acceso a la informaci&oacute;n desde distintos dispositivos.</li>
+            <li>Flexibilidad en la infrestuctura.</li>
+          </ul>
+        </div>
+      </div>
+      <div id='footer'>
+        &copy; Todos los derechos reservados a JaguarSoft (2012)
+      </div>
+    </div>
+  </body>
+</html>
+;T;	I"¬%div(class="proyectos")
+  %h2 Prototipo de Red Estatal de Estaciones Agroclimatol&oacute;gicas de Bajo Costo
+  %br
+
+  %h3 Objetivo
+  %br
+  %p  Implementar un prototipo de red estatal de estaciones agroclim&aacute;ticas de bajo costo, para la Secretar&iacute;a de Desarrollo Rural del Estado de Colima.
+  
+  %br
+  %br
+
+  %h3 Esquema de funcionamiento
+  %br
+  %img(src="img/preeabc.png" width="400px" height="300px")
+  %br
+  %br
+  
+  %h3 Ventajas
+  %br
+  %ul
+    %li Bajo costo.
+    %li Mayor cobertura.
+    %li Informaci&oacute;n en tiempo real.
+    %li Precisi&oacute;n de la informaci&oacute;n.
+    %li Acceso a la informaci&oacute;n desde distintos dispositivos.
+    %li Flexibilidad en la infrestuctura.;T;
+I"<div class='proyectos'>
+  <h2>Prototipo de Red Estatal de Estaciones Agroclimatol&oacute;gicas de Bajo Costo</h2>
+  <br />
+  <h3>Objetivo</h3>
+  <br />
+  <p>Implementar un prototipo de red estatal de estaciones agroclim&aacute;ticas de bajo costo, para la Secretar&iacute;a de Desarrollo Rural del Estado de Colima.</p>
+  <br />
+  <br />
+  <h3>Esquema de funcionamiento</h3>
+  <br />
+  <img height='300px' src='img/preeabc.png' width='400px' />
+  <br />
+  <br />
+  <h3>Ventajas</h3>
+  <br />
+  <ul>
+    <li>Bajo costo.</li>
+    <li>Mayor cobertura.</li>
+    <li>Informaci&oacute;n en tiempo real.</li>
+    <li>Precisi&oacute;n de la informaci&oacute;n.</li>
+    <li>Acceso a la informaci&oacute;n desde distintos dispositivos.</li>
+    <li>Flexibilidad en la infrestuctura.</li>
+  </ul>
+</div>
+;T;@vI"/img/preeabc/;T{;{ I"/img/safec/;T{;{ I"/safec/;T{;{	;I"<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      JaguarSoft
+    </title>
+    <link href='stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <meta content='nanoc 3.3.0' name='generator'>
+    <script>
+      //<![CDATA[
+        var hide = false;
+        function showElement(layer){
+        var myLayer = document.getElementById(layer);
+        if(myLayer.style.display=="none"){
+        myLayer.style.display="block";
+        myLayer.backgroundPosition="top";
+        } 
+        }
+        function activeHide(layer){
+        console.log(layer);
+        var myLayer = document.getElementById(layer);
+        if(hide === true)
+        myLayer.style.display="none";
+        }
+        function hideElement(layer){
+        hide=true;
+        setTimeout("activeHide('"+layer+"')", 200);
+        }
+        function cancelHide(){
+        hide=false;
+        }
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <span id='logo'>
+          <a href='#'>JagurSoft</a>
+        </span>
+        <span id='logoitc'>
+          <a href='http://www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
+        </span>
+      </div>
+      <div id='menubar'>
+        <a href='index.html' id='corner'>Inicio</a>
+        <a href='proyectos.html'>Proyectos</a>
+        <a href='acercade.html'>Acerca de ...</a>
+        <a href='servicios.html'>Soluciones Tecnol&oacute;gicas</a>
+        <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
+          Comunidad
+        </a>
+      </div>
+      <div id='v-menu' style='display:none;'>
+        <ul>
+          <li>
+            <a href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>DEPI</a>
+          </li>
+          <li>
+            <a href='http://grubytec.github.com' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>GRubyTec</a>
+          </li>
+        </ul>
+      </div>
+      <div id='content'>
+        <div class='proyectos'>
+          <h2>Sistema de Alertas Fitosanitarias para el Estado de Colima</h2>
+          <br />
+          <h3>Objetivo</h3>
+          <br />
+          <p>Implementar un sistema de emisi&oacute;n de boletines informativos que alerten a los agricultores del estado de Colima sobre la presencia de condiciones clim&aacute;ticas que propendan a la aparici&oacute;n de plagas y enfermedades que afecten los cultivos.</p>
+          <br />
+          <br />
+          <h3>Esquema de funcionamiento</h3>
+          <br />
+          <img height='300px' src='img/safec.png' width='400px' />
+          <br />
+          <br />
+          <h3>Ventajas</h3>
+          <br />
+          <ul>
+            <li>Ofrecer a los agricultores agropecuarios informaci&oacute;n meteorol&oacute;gica en tiempo real, que puede ser aplicada a los procesos de producci&oacute;n y protecci&oacute;n sanitaria ante clima adverso.</li>
+            <li>Informar de manera oportuna sobre la presencia de condiciones que propenden a la aparici&oacute;n de plagas y enfermedades.</li>
+          </ul>
+        </div>
+      </div>
+      <div id='footer'>
+        &copy; Todos los derechos reservados a JaguarSoft (2012)
+      </div>
+    </div>
+  </body>
+</html>
+;T;	I"p%div(class="proyectos")
+  %h2 Sistema de Alertas Fitosanitarias para el Estado de Colima 
+  %br
+
+  %h3 Objetivo
+  %br
+  %p  Implementar un sistema de emisi&oacute;n de boletines informativos que alerten a los agricultores del estado de Colima sobre la presencia de condiciones clim&aacute;ticas que propendan a la aparici&oacute;n de plagas y enfermedades que afecten los cultivos.
+  
+  %br
+  %br
+
+  %h3 Esquema de funcionamiento
+  %br
+  %img(src="img/safec.png" width="400px" height="300px")
+  %br
+  %br
+  
+  %h3 Ventajas
+  %br
+  %ul
+    %li Ofrecer a los agricultores agropecuarios informaci&oacute;n meteorol&oacute;gica en tiempo real, que puede ser aplicada a los procesos de producci&oacute;n y protecci&oacute;n sanitaria ante clima adverso.
+    %li Informar de manera oportuna sobre la presencia de condiciones que propenden a la aparici&oacute;n de plagas y enfermedades.;T;
+I"≥<div class='proyectos'>
+  <h2>Sistema de Alertas Fitosanitarias para el Estado de Colima</h2>
+  <br />
+  <h3>Objetivo</h3>
+  <br />
+  <p>Implementar un sistema de emisi&oacute;n de boletines informativos que alerten a los agricultores del estado de Colima sobre la presencia de condiciones clim&aacute;ticas que propendan a la aparici&oacute;n de plagas y enfermedades que afecten los cultivos.</p>
+  <br />
+  <br />
+  <h3>Esquema de funcionamiento</h3>
+  <br />
+  <img height='300px' src='img/safec.png' width='400px' />
+  <br />
+  <br />
+  <h3>Ventajas</h3>
+  <br />
+  <ul>
+    <li>Ofrecer a los agricultores agropecuarios informaci&oacute;n meteorol&oacute;gica en tiempo real, que puede ser aplicada a los procesos de producci&oacute;n y protecci&oacute;n sanitaria ante clima adverso.</li>
+    <li>Informar de manera oportuna sobre la presencia de condiciones que propenden a la aparici&oacute;n de plagas y enfermedades.</li>
+  </ul>
+</div>
+;T;@}I"/img/rimdm/;T{;{ I"/rimdm/;T{;{	;I"’
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      JaguarSoft
+    </title>
+    <link href='stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <meta content='nanoc 3.3.0' name='generator'>
+    <script>
+      //<![CDATA[
+        var hide = false;
+        function showElement(layer){
+        var myLayer = document.getElementById(layer);
+        if(myLayer.style.display=="none"){
+        myLayer.style.display="block";
+        myLayer.backgroundPosition="top";
+        } 
+        }
+        function activeHide(layer){
+        console.log(layer);
+        var myLayer = document.getElementById(layer);
+        if(hide === true)
+        myLayer.style.display="none";
+        }
+        function hideElement(layer){
+        hide=true;
+        setTimeout("activeHide('"+layer+"')", 200);
+        }
+        function cancelHide(){
+        hide=false;
+        }
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <span id='logo'>
+          <a href='#'>JagurSoft</a>
+        </span>
+        <span id='logoitc'>
+          <a href='http://www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
+        </span>
+      </div>
+      <div id='menubar'>
+        <a href='index.html' id='corner'>Inicio</a>
+        <a href='proyectos.html'>Proyectos</a>
+        <a href='acercade.html'>Acerca de ...</a>
+        <a href='servicios.html'>Soluciones Tecnol&oacute;gicas</a>
+        <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
+          Comunidad
+        </a>
+      </div>
+      <div id='v-menu' style='display:none;'>
+        <ul>
+          <li>
+            <a href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>DEPI</a>
+          </li>
+          <li>
+            <a href='http://grubytec.github.com' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>GRubyTec</a>
+          </li>
+        </ul>
+      </div>
+      <div id='content'>
+        <div class='proyectos'>
+          <h2>Recolecci&oacute;n de Indicadores de la SEDER Mediante Dispositivos M&oacute;viles</h2>
+          <br />
+          <h3>Objetivo</h3>
+          <br />
+          <p>Implementar un sistema que automatice la aplicaci&oacute;n y procesamiento de encuestas del padr&oacute;n agropecuario.</p>
+          <br />
+          <br />
+          <h3>Esquema de funcionamiento</h3>
+          <br />
+          <img height='300px' src='img/rimdm.png' width='400px' />
+          <br />
+          <br />
+        </div>
+      </div>
+      <div id='footer'>
+        &copy; Todos los derechos reservados a JaguarSoft (2012)
+      </div>
+    </div>
+  </body>
+</html>
+;T;	I"Ö%div(class="proyectos")
+  %h2 Recolecci&oacute;n de Indicadores de la SEDER Mediante Dispositivos M&oacute;viles
+  %br
+
+  %h3 Objetivo
+  %br
+  %p  Implementar un sistema que automatice la aplicaci&oacute;n y procesamiento de encuestas del padr&oacute;n agropecuario.
+  
+  %br
+  %br
+
+  %h3 Esquema de funcionamiento
+  %br
+  %img(src="img/rimdm.png" width="400px" height="300px")
+  %br
+  %br;T;
+I"±<div class='proyectos'>
+  <h2>Recolecci&oacute;n de Indicadores de la SEDER Mediante Dispositivos M&oacute;viles</h2>
+  <br />
+  <h3>Objetivo</h3>
+  <br />
+  <p>Implementar un sistema que automatice la aplicaci&oacute;n y procesamiento de encuestas del padr&oacute;n agropecuario.</p>
+  <br />
+  <br />
+  <h3>Esquema de funcionamiento</h3>
+  <br />
+  <img height='300px' src='img/rimdm.png' width='400px' />
+  <br />
+  <br />
+</div>
+;T;@Ü:versioni
