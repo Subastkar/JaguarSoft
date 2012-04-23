@@ -261,7 +261,8 @@ div#v-menu{
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"k	<!DOCTYPE html>
+I"/;T{;{	;I"¥
+<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -329,8 +330,14 @@ I"/;T{;{	;I"k	<!DOCTYPE html>
         </ul>
       </div>
       <div id='content'>
-        <h1>Welcom to JaguarSoft</h1>
-        <p>This site soon will be avible.</p>
+        <h1>Bienvenidos a JaguarSoft</h1>
+        <br />
+        <p><b>Jaguarsoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.</p>
+        <br />
+        Img here
+        <br />
+        <br />
+        <p>Este proyecto surge dentro de nuestro plantel el Insituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes del mismo.</p>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
@@ -338,10 +345,23 @@ I"/;T{;{	;I"k	<!DOCTYPE html>
     </div>
   </body>
 </html>
-;T;	I"?%h1 Welcom to JaguarSoft
-%p This site soon will be avible.;T;
-I"I<h1>Welcom to JaguarSoft</h1>
-<p>This site soon will be avible.</p>
+;T;	I"5%h1 Bienvenidos a JaguarSoft
+%br
+
+%p <b>Jaguarsoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.
+%br
+Img here
+%br
+%br
+%p Este proyecto surge dentro de nuestro plantel el Insituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes del mismo.;T;
+I"N<h1>Bienvenidos a JaguarSoft</h1>
+<br />
+<p><b>Jaguarsoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.</p>
+<br />
+Img here
+<br />
+<br />
+<p>Este proyecto surge dentro de nuestro plantel el Insituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes del mismo.</p>
 ;T:	post@I"/about/;T{;{	;I"ï<!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -2236,7 +2256,7 @@ I"?<div class='link1'>
 <div class='side-img'>
   Insert image here
 </div>
-;T;@OI"/servicios/;T{;{	;I"Ÿ<!DOCTYPE html>
+;T;@OI"/servicios/;T{;{	;I"°<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2306,6 +2326,7 @@ I"?<div class='link1'>
       <div id='content'>
         <div class='services'>
           <h2>Cat&aacute;logo de servicios</h2>
+          <br />
           <p>Desarrollo de aplicaciones de gesti&oacute;n para escritorio o basadas en web.</p>
           <p>Desarrollo de aplicacionespara dispositivos mo&oacute;viles.</p>
           <p>Implementaci&oacute;n y administraci&oacute; de aplicaciones para negocios electr&oacute;nicos.</p>
@@ -2320,16 +2341,18 @@ I"?<div class='link1'>
     </div>
   </body>
 </html>
-;T;	I"%div.services
+;T;	I"%div.services
   %h2 Cat&aacute;logo de servicios
+  %br
   %p Desarrollo de aplicaciones de gesti&oacute;n para escritorio o basadas en web.
   %p Desarrollo de aplicacionespara dispositivos mo&oacute;viles.
   %p Implementaci&oacute;n y administraci&oacute; de aplicaciones para negocios electr&oacute;nicos.
   %p Dise&ntiled;o, indtalaci&oacute;n y administraci&oacute;n de tecnolog&iacute;as de redes de computadoras.
   %p Mantenimiento preventivo y correctivo de equipo de c&oacute;mputo.
   %p Consutlr&iacute;, asesor&iacute; en TIC's.;T;
-I"@<div class='services'>
+I"I<div class='services'>
   <h2>Cat&aacute;logo de servicios</h2>
+  <br />
   <p>Desarrollo de aplicaciones de gesti&oacute;n para escritorio o basadas en web.</p>
   <p>Desarrollo de aplicacionespara dispositivos mo&oacute;viles.</p>
   <p>Implementaci&oacute;n y administraci&oacute; de aplicaciones para negocios electr&oacute;nicos.</p>
