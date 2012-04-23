@@ -124,10 +124,10 @@ a#corner:hover {
 div#v-menu{
   background-color: #585858;
   border-radius: 0em 0em 1em 1em;
-  width: 150px;
+  width: 155px;
   height: 60px;
   float: left;
-  margin-left: 650px;
+  margin-left: 765px;
   border-top: #383838 solid 2px;
   display: none;
   position: absolute;
@@ -225,9 +225,17 @@ div#v-menu{
   padding: 5px 10px;
 }
 
-#empresas a,#empresas a:hover, #empresas a:link, #empresas a:active, #empresas a:visited {
+#empresas a, #empresas a:link, #empresas a:active, #empresas a:visited {
   color: black;
   text-decoration: none;
+  background: url("../img/dot.png") no-repeat;
+  padding-left: 20px;
+  padding-right: 5px;
+  border-radius: 3px;
+}
+
+#empresas a:hover {
+  background-color: rgba(82,143,22,0.6);
 }
 
 .logo_empresas {
