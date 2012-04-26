@@ -43,7 +43,7 @@
         %a(href="") Integrantes
         %a(href="#" class="button" onMouseOver="javascript:showElement('v-menu')" onMouseOut="javascript:hideElement('v-menu')")
           Comunidad
-        %a(href="") Contacto 
+        %a(href="contacto.html") Contacto 
         %a(href="acercade.html") Acerca de ...
       %div(id="v-menu" style="display:none;")
 
@@ -56,3 +56,5 @@
         = yield
       %div(id="footer")
         = @item[:author]
+        %p
+          %a(href="http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020") Images from twobee / FreeDigitalPhotos.net

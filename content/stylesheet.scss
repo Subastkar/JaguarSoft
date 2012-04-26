@@ -182,16 +182,22 @@ div#v-menu{
 }
 
 #footer{
-	font-size:10px;
+	font-size:12px;
 	color: white;
 	margin-top:20px;
 	margin-bottom:20px;
 	text-align:center;
 }
 
+#footer a, #footer a:hover, #footer a:link, #footer a:active, footer a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .link1 {
-  float: right;
-  padding-right: 25px;
+  position: absolute;
+  display: inline-block;
+  vertical-align:top;
 }
 
 .link1 a,.link1 a:hover, .link1 a:link, .link1 a:active, .link1 a:visited {
@@ -203,9 +209,12 @@ div#v-menu{
 }
 
 .val {
+  display: inline-block;
+  vertical-align:top;
   width: 600px;
   padding-top: 100px;
   padding-left: 50px;
+  padding-right: 120px;
 }
 
 .val ul {
@@ -213,12 +222,51 @@ div#v-menu{
   padding-top: 40px;
 }
 
-.services {
-  padding-top: 50px;
+.index {
+  text-align: center;
 }
 
-.services p {
+#services {
+  display: inline-block;
+  vertical-align:top;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  border: 1px solid;
+  box-shadow: 4px 4px grey;
+  border-radius: 9px;
+  width: 700px;
+}
+
+#services li {
   padding: 10px 0 10px 15px;
+  font-size: 18px;
+}
+
+.side_images {
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.side_images img {
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+#foot_images {
+  padding-top: 30px;
+}
+
+#foot_images img {
+  border-radius: 20px;
+  margin-right: 10px;
+
+}
+
+#proyectos {
+  padding-top: 30px;
+  padding-left: 100px;
 }
 
 #empresas td {
@@ -236,6 +284,19 @@ div#v-menu{
 
 #empresas a:hover {
   background-color: rgba(82,143,22,0.6);
+  cursor: pointer;
+}
+
+#contact {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+  margin-right: 20px;
+  width: 700px;
+  height: 350px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 .logo_empresas {
@@ -243,19 +304,19 @@ div#v-menu{
   height: 100px;
 }
 
-.proyectos {
+.proyecto {
   padding-left: 40px;
 }
 
-.proyectos img {
+.proyecto img {
   padding-left: 130px;
 }
 
-.proyectos ul {
+.proyecto ul {
   padding-left: 35px;
 }
 
-.proyectos li {
+.proyecto li {
   padding-top: 10px;
   padding-bottom: 10px;
 }

@@ -1,4 +1,4 @@
-{:	data{,I"/stylesheet/:ET{:default{:	lastI"g* {
+{:	data{7I"/stylesheet/:ET{:default{:	lastI"N* {
   margin: 0;
   padding: 0;
 
@@ -182,16 +182,22 @@ div#v-menu{
 }
 
 #footer{
-	font-size:10px;
+	font-size:12px;
 	color: white;
 	margin-top:20px;
 	margin-bottom:20px;
 	text-align:center;
 }
 
+#footer a, #footer a:hover, #footer a:link, #footer a:active, footer a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .link1 {
-  float: right;
-  padding-right: 25px;
+  position: absolute;
+  display: inline-block;
+  vertical-align:top;
 }
 
 .link1 a,.link1 a:hover, .link1 a:link, .link1 a:active, .link1 a:visited {
@@ -203,9 +209,12 @@ div#v-menu{
 }
 
 .val {
+  display: inline-block;
+  vertical-align:top;
   width: 600px;
   padding-top: 100px;
   padding-left: 50px;
+  padding-right: 120px;
 }
 
 .val ul {
@@ -213,12 +222,51 @@ div#v-menu{
   padding-top: 40px;
 }
 
-.services {
-  padding-top: 50px;
+.index {
+  text-align: center;
 }
 
-.services p {
+#services {
+  display: inline-block;
+  vertical-align:top;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  border: 1px solid;
+  box-shadow: 4px 4px grey;
+  border-radius: 9px;
+  width: 700px;
+}
+
+#services li {
   padding: 10px 0 10px 15px;
+  font-size: 18px;
+}
+
+.side_images {
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.side_images img {
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+#foot_images {
+  padding-top: 30px;
+}
+
+#foot_images img {
+  border-radius: 20px;
+  margin-right: 10px;
+
+}
+
+#proyectos {
+  padding-top: 30px;
+  padding-left: 100px;
 }
 
 #empresas td {
@@ -236,6 +284,19 @@ div#v-menu{
 
 #empresas a:hover {
   background-color: rgba(82,143,22,0.6);
+  cursor: pointer;
+}
+
+#contact {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+  margin-right: 20px;
+  width: 700px;
+  height: 350px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 .logo_empresas {
@@ -243,26 +304,25 @@ div#v-menu{
   height: 100px;
 }
 
-.proyectos {
+.proyecto {
   padding-left: 40px;
 }
 
-.proyectos img {
+.proyecto img {
   padding-left: 130px;
 }
 
-.proyectos ul {
+.proyecto ul {
   padding-left: 35px;
 }
 
-.proyectos li {
+.proyecto li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"•
-<!DOCTYPE html>
+I"/;T{;{	;I"⁄<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -316,7 +376,7 @@ I"/;T{;{	;I"•
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -330,38 +390,48 @@ I"/;T{;{	;I"•
         </ul>
       </div>
       <div id='content'>
-        <h1>Bienvenidos a JaguarSoft</h1>
-        <br />
-        <p><b>Jaguarsoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.</p>
-        <br />
-        Img here
-        <br />
-        <br />
-        <p>Este proyecto surge dentro de nuestro plantel el Insituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes del mismo.</p>
+        <div class='index' id='div'>
+          <h1>Bienvenidos a JaguarSoft</h1>
+          <br />
+          <p><b>JaguarSoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.</p>
+          <br />
+          <img align='center' height='400px' src='img/tec.gif' width='700px' />
+          <br />
+          <br />
+          <p>Este proyecto surge dentro de nuestro plantel el Instituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes de este mismo.</p>
+        </div>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"5%h1 Bienvenidos a JaguarSoft
-%br
-
-%p <b>Jaguarsoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.
-%br
-Img here
-%br
-%br
-%p Este proyecto surge dentro de nuestro plantel el Insituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes del mismo.;T;
-I"N<h1>Bienvenidos a JaguarSoft</h1>
-<br />
-<p><b>Jaguarsoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.</p>
-<br />
-Img here
-<br />
-<br />
-<p>Este proyecto surge dentro de nuestro plantel el Insituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes del mismo.</p>
+;T;	I"ò#div.index
+  %h1 Bienvenidos a JaguarSoft
+  %br
+  
+  %p <b>JaguarSoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.
+  %br
+  
+  %img(src="img/tec.gif" width="700px" height="400px" align="center")
+  %br
+  %br
+  
+  %p Este proyecto surge dentro de nuestro plantel el Instituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes de este mismo.;T;
+I"ƒ<div class='index' id='div'>
+  <h1>Bienvenidos a JaguarSoft</h1>
+  <br />
+  <p><b>JaguarSoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.</p>
+  <br />
+  <img align='center' height='400px' src='img/tec.gif' width='700px' />
+  <br />
+  <br />
+  <p>Este proyecto surge dentro de nuestro plantel el Instituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes de este mismo.</p>
+</div>
 ;T:	post@I"/about/;T{;{	;I"Ô<!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -1728,7 +1798,7 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
   //line-height: 20px; 
 //}
 ;T;
-@8I"/acercade/;T{;{	;I"ú<!DOCTYPE html>
+@8I"/acercade/;T{;{	;I"Ä<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -1782,7 +1852,7 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -1796,58 +1866,61 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
         </ul>
       </div>
       <div id='content'>
-        <div class='link1'>
-          <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
-          <a href='mision.html'>Misi&oacute;n</a>
-          <a href='vision.html'>Visi&oacute;n</a>
-          <a href='valores.html'>Valores</a>
-        </div>
         <div class='val'>
           <h1>¬øQu√© es jaguarsoft?</h1>
           <br />
           <br />
           <p>Es un proyecto para el desarrollo y aplicaci&oacute;m de las TIC's con la finalidad de fortalecer la vinculaci&oacute;n de la comunidad tecnol&oacute;gica con los diferentes sectores.</p>
         </div>
-        <div class='side-img'>
-          Insert image here
+        <div class='link1'>
+          <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
+          <a href='mision.html'>Misi&oacute;n</a>
+          <a href='vision.html'>Visi&oacute;n</a>
+          <a href='valores.html'>Valores</a>
+        </div>
+        <div class='side_images'>
+          <img height='450px' src='img/earth_one_finger.jpg' width='300px' />
         </div>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"∆%div.link1
-  %a(href="acercade.html") ¬øQu&eacute; es JaguarSoft?
-  %a(href="mision.html") Misi&oacute;n
-  %a(href="vision.html") Visi&oacute;n
-  %a(href="valores.html") Valores
-  
-%div.val
+;T;	I"ı%div.val
   %h1 ¬øQu√© es jaguarsoft?
   %br
   %br
   %p Es un proyecto para el desarrollo y aplicaci&oacute;m de las TIC's con la finalidad de fortalecer la vinculaci&oacute;n de la comunidad tecnol&oacute;gica con los diferentes sectores. 
 
-%div.side-img
-  Insert image here;T;
-I"<div class='link1'>
-  <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
-  <a href='mision.html'>Misi&oacute;n</a>
-  <a href='vision.html'>Visi&oacute;n</a>
-  <a href='valores.html'>Valores</a>
-</div>
-<div class='val'>
+%div.link1
+  %a(href="acercade.html") ¬øQu&eacute; es JaguarSoft?
+  %a(href="mision.html") Misi&oacute;n
+  %a(href="vision.html") Visi&oacute;n
+  %a(href="valores.html") Valores
+  
+.side_images
+  %img(src="img/earth_one_finger.jpg" width="300px" height="450px");T;
+I"B<div class='val'>
   <h1>¬øQu√© es jaguarsoft?</h1>
   <br />
   <br />
   <p>Es un proyecto para el desarrollo y aplicaci&oacute;m de las TIC's con la finalidad de fortalecer la vinculaci&oacute;n de la comunidad tecnol&oacute;gica con los diferentes sectores.</p>
 </div>
-<div class='side-img'>
-  Insert image here
+<div class='link1'>
+  <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
+  <a href='mision.html'>Misi&oacute;n</a>
+  <a href='vision.html'>Visi&oacute;n</a>
+  <a href='valores.html'>Valores</a>
 </div>
-;T;@=I"/mision/;T{;{	;I"∑<!DOCTYPE html>
+<div class='side_images'>
+  <img height='450px' src='img/earth_one_finger.jpg' width='300px' />
+</div>
+;T;@=I"/mision/;T{;{	;I"£<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -1901,7 +1974,7 @@ I"<div class='link1'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -1915,177 +1988,65 @@ I"<div class='link1'>
         </ul>
       </div>
       <div id='content'>
-        <div class='link1'>
-          <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
-          <a href='mision.html'>Misi&oacute;n</a>
-          <a href='vision.html'>Visi&oacute;n</a>
-          <a href='valores.html'>Valores</a>
-        </div>
         <div class='val'>
           <h1>Misi&oacute;n</h1>
           <br />
           <br />
           <p>La misi&oacute;n del grupo <b>JaguarSoft</b> generar soluciones tecnol&oacute;gicas para optimizar los procesos de las empresas del sector productivo y social de la regi&oacute;n aplicando est&aacute;ndares de calidad.</p>
         </div>
-        <div class='side-img'>
-          Insert image here
+        <div class='link1'>
+          <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
+          <a href='mision.html'>Misi&oacute;n</a>
+          <a href='vision.html'>Visi&oacute;n</a>
+          <a href='valores.html'>Valores</a>
+        </div>
+        <div class='side_images'>
+          <br />
+          <img height='400px' src='img/success.jpg' width='450px' />
         </div>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"ﬁ%div.link1
-  %a(href="acercade.html") ¬øQu&eacute; es JaguarSoft?
-  %a(href="mision.html") Misi&oacute;n
-  %a(href="vision.html") Visi&oacute;n
-  %a(href="valores.html") Valores
-
-%div.val
+;T;	I"
+%div.val
   %h1 Misi&oacute;n
   %br
   %br
   %p La misi&oacute;n del grupo <b>JaguarSoft</b> generar soluciones tecnol&oacute;gicas para optimizar los procesos de las empresas del sector productivo y social de la regi&oacute;n aplicando est&aacute;ndares de calidad.
 
-%div.side-img
-  Insert image here;T;
-I"(<div class='link1'>
-  <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
-  <a href='mision.html'>Misi&oacute;n</a>
-  <a href='vision.html'>Visi&oacute;n</a>
-  <a href='valores.html'>Valores</a>
-</div>
-<div class='val'>
+%div.link1
+  %a(href="acercade.html") ¬øQu&eacute; es JaguarSoft?
+  %a(href="mision.html") Misi&oacute;n
+  %a(href="vision.html") Visi&oacute;n
+  %a(href="valores.html") Valores
+
+.side_images
+  %br
+  %img(src="img/success.jpg" width="450px" height="400px");T;
+I"]<div class='val'>
   <h1>Misi&oacute;n</h1>
   <br />
   <br />
   <p>La misi&oacute;n del grupo <b>JaguarSoft</b> generar soluciones tecnol&oacute;gicas para optimizar los procesos de las empresas del sector productivo y social de la regi&oacute;n aplicando est&aacute;ndares de calidad.</p>
 </div>
-<div class='side-img'>
-  Insert image here
-</div>
-;T;@CI"/vision/;T{;{	;I"±<!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='utf-8'>
-    <title>
-      JaguarSoft
-    </title>
-    <link href='stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
-    <meta content='nanoc 3.3.0' name='generator'>
-    <script>
-      //<![CDATA[
-        var hide = false;
-        function showElement(layer){
-        var myLayer = document.getElementById(layer);
-        if(myLayer.style.display=="none"){
-        myLayer.style.display="block";
-        myLayer.backgroundPosition="top";
-        } 
-        }
-        function activeHide(layer){
-        console.log(layer);
-        var myLayer = document.getElementById(layer);
-        if(hide === true)
-        myLayer.style.display="none";
-        }
-        function hideElement(layer){
-        hide=true;
-        setTimeout("activeHide('"+layer+"')", 200);
-        }
-        function cancelHide(){
-        hide=false;
-        }
-      //]]>
-    </script>
-  </head>
-  <body>
-    <div id='main'>
-      <div id='header'>
-        <span id='logo'>
-          <a href='#'>JagurSoft</a>
-        </span>
-        <span id='logoitc'>
-          <a href='http://www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
-        </span>
-      </div>
-      <div id='menubar'>
-        <a href='index.html' id='corner'>Inicio</a>
-        <a href='servicios.html'>Soluciones Tecnol&oacute;gicas</a>
-        <a href='proyectos.html'>Proyectos</a>
-        <a href=''>Software</a>
-        <a href=''>Integrantes</a>
-        <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
-          Comunidad
-        </a>
-        <a href=''>Contacto</a>
-        <a href='acercade.html'>Acerca de ...</a>
-      </div>
-      <div id='v-menu' style='display:none;'>
-        <ul>
-          <li>
-            <a href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>DEPI</a>
-          </li>
-          <li>
-            <a href='http://grubytec.github.com' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>GRubyTec</a>
-          </li>
-        </ul>
-      </div>
-      <div id='content'>
-        <div class='link1'>
-          <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
-          <a href='mision.html'>Misi&oacute;n</a>
-          <a href='vision.html'>Visi&oacute;n</a>
-          <a href='valores.html'>Valores</a>
-        </div>
-        <div class='val'>
-          <h1>Visi&oacute;n</h1>
-          <br />
-          <br />
-          <p>Ser un grupo l&iacute;der que fortalezca la vinculaci&oactue;n del Instituto Tecnol&oacute;gico de colima para impulsar el uso de las TIC's en los organismos del sector p&uacute;blico y privado de la regi&oacute;</p>
-        </div>
-        <div class='side-img'>
-          Insert image here
-        </div>
-      </div>
-      <div id='footer'>
-        &copy; Todos los derechos reservados a JaguarSoft (2012)
-      </div>
-    </div>
-  </body>
-</html>
-;T;	I"⁄%div.link1
-  %a(href="acercade.html") ¬øQu&eacute; es JaguarSoft?
-  %a(href="mision.html") Misi&oacute;n
-  %a(href="vision.html") Visi&oacute;n
-  %a(href="valores.html") Valores
-  
-%div.val
-  %h1 Visi&oacute;n
-  %br
-  %br
-  %p Ser un grupo l&iacute;der que fortalezca la vinculaci&oactue;n del Instituto Tecnol&oacute;gico de colima para impulsar el uso de las TIC's en los organismos del sector p&uacute;blico y privado de la regi&oacute;
-
-%div.side-img
-  Insert image here;T;
-I""<div class='link1'>
+<div class='link1'>
   <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
   <a href='mision.html'>Misi&oacute;n</a>
   <a href='vision.html'>Visi&oacute;n</a>
   <a href='valores.html'>Valores</a>
 </div>
-<div class='val'>
-  <h1>Visi&oacute;n</h1>
+<div class='side_images'>
   <br />
-  <br />
-  <p>Ser un grupo l&iacute;der que fortalezca la vinculaci&oactue;n del Instituto Tecnol&oacute;gico de colima para impulsar el uso de las TIC's en los organismos del sector p&uacute;blico y privado de la regi&oacute;</p>
+  <img height='400px' src='img/success.jpg' width='450px' />
 </div>
-<div class='side-img'>
-  Insert image here
-</div>
-;T;@II"/valores/;T{;{	;I"n<!DOCTYPE html>
+;T;@CI"/vision/;T{;{	;I"≤<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2139,7 +2100,7 @@ I""<div class='link1'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -2153,12 +2114,134 @@ I""<div class='link1'>
         </ul>
       </div>
       <div id='content'>
+        <div class='val'>
+          <h1>Visi&oacute;n</h1>
+          <br />
+          <br />
+          <p>Ser un grupo l&iacute;der que fortalezca la vinculaci&oacute;n del Instituto Tecnol&oacute;gico de colima para impulsar el uso de las TIC's en los organismos del sector p&uacute;blico y privado de la regi&oacute;n.</p>
+        </div>
         <div class='link1'>
           <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
           <a href='mision.html'>Misi&oacute;n</a>
           <a href='vision.html'>Visi&oacute;n</a>
           <a href='valores.html'>Valores</a>
         </div>
+        <div class='side_images'>
+          <br />
+          <br />
+          <img height='400px' src='img/bussiness.jpg' width='300px' />
+        </div>
+      </div>
+      <div id='footer'>
+        &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+;T;	I"%div.val
+  %h1 Visi&oacute;n
+  %br
+  %br
+  %p Ser un grupo l&iacute;der que fortalezca la vinculaci&oacute;n del Instituto Tecnol&oacute;gico de colima para impulsar el uso de las TIC's en los organismos del sector p&uacute;blico y privado de la regi&oacute;n.
+
+%div.link1
+  %a(href="acercade.html") ¬øQu&eacute; es JaguarSoft?
+  %a(href="mision.html") Misi&oacute;n
+  %a(href="vision.html") Visi&oacute;n
+  %a(href="valores.html") Valores
+  
+.side_images
+  %br
+  %br
+  %img(src="img/bussiness.jpg" width="300px" height="400px");T;
+I"d<div class='val'>
+  <h1>Visi&oacute;n</h1>
+  <br />
+  <br />
+  <p>Ser un grupo l&iacute;der que fortalezca la vinculaci&oacute;n del Instituto Tecnol&oacute;gico de colima para impulsar el uso de las TIC's en los organismos del sector p&uacute;blico y privado de la regi&oacute;n.</p>
+</div>
+<div class='link1'>
+  <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
+  <a href='mision.html'>Misi&oacute;n</a>
+  <a href='vision.html'>Visi&oacute;n</a>
+  <a href='valores.html'>Valores</a>
+</div>
+<div class='side_images'>
+  <br />
+  <br />
+  <img height='400px' src='img/bussiness.jpg' width='300px' />
+</div>
+;T;@II"/valores/;T{;{	;I"Y<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      JaguarSoft
+    </title>
+    <link href='stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <meta content='nanoc 3.3.0' name='generator'>
+    <script>
+      //<![CDATA[
+        var hide = false;
+        function showElement(layer){
+        var myLayer = document.getElementById(layer);
+        if(myLayer.style.display=="none"){
+        myLayer.style.display="block";
+        myLayer.backgroundPosition="top";
+        } 
+        }
+        function activeHide(layer){
+        console.log(layer);
+        var myLayer = document.getElementById(layer);
+        if(hide === true)
+        myLayer.style.display="none";
+        }
+        function hideElement(layer){
+        hide=true;
+        setTimeout("activeHide('"+layer+"')", 200);
+        }
+        function cancelHide(){
+        hide=false;
+        }
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <span id='logo'>
+          <a href='#'>JagurSoft</a>
+        </span>
+        <span id='logoitc'>
+          <a href='http://www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
+        </span>
+      </div>
+      <div id='menubar'>
+        <a href='index.html' id='corner'>Inicio</a>
+        <a href='servicios.html'>Soluciones Tecnol&oacute;gicas</a>
+        <a href='proyectos.html'>Proyectos</a>
+        <a href=''>Software</a>
+        <a href=''>Integrantes</a>
+        <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
+          Comunidad
+        </a>
+        <a href='contacto.html'>Contacto</a>
+        <a href='acercade.html'>Acerca de ...</a>
+      </div>
+      <div id='v-menu' style='display:none;'>
+        <ul>
+          <li>
+            <a href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>DEPI</a>
+          </li>
+          <li>
+            <a href='http://grubytec.github.com' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>GRubyTec</a>
+          </li>
+        </ul>
+      </div>
+      <div id='content'>
         <div class='val'>
           <h1>Valores</h1>
           <ul>
@@ -2185,23 +2268,27 @@ I""<div class='link1'>
             </li>
           </ul>
         </div>
-        <div class='side-img'>
-          Insert image here
+        <div class='link1'>
+          <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
+          <a href='mision.html'>Misi&oacute;n</a>
+          <a href='vision.html'>Visi&oacute;n</a>
+          <a href='valores.html'>Valores</a>
+        </div>
+        <div class='side_images'>
+          <br />
+          <img height='400px' src='img/leader.jpg' width='400px' />
         </div>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"≥%div.link1
-  %a(href="acercade.html") ¬øQu&eacute; es JaguarSoft?
-  %a(href="mision.html") Misi&oacute;n
-  %a(href="vision.html") Visi&oacute;n
-  %a(href="valores.html") Valores
-  
-%div.val
+;T;	I"ﬁ%div.val
   %h1 Valores
   %ul
     %li 
@@ -2219,15 +2306,16 @@ I""<div class='link1'>
     %li 
       Tolerancia
 
-%div.side-img
-  Insert image here;T;
-I"?<div class='link1'>
-  <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
-  <a href='mision.html'>Misi&oacute;n</a>
-  <a href='vision.html'>Visi&oacute;n</a>
-  <a href='valores.html'>Valores</a>
-</div>
-<div class='val'>
+%div.link1
+  %a(href="acercade.html") ¬øQu&eacute; es JaguarSoft?
+  %a(href="mision.html") Misi&oacute;n
+  %a(href="vision.html") Visi&oacute;n
+  %a(href="valores.html") Valores
+  
+.side_images
+  %br
+  %img(src="img/leader.jpg" width="400px" height="400px");T;
+I"s<div class='val'>
   <h1>Valores</h1>
   <ul>
     <li>
@@ -2253,10 +2341,17 @@ I"?<div class='link1'>
     </li>
   </ul>
 </div>
-<div class='side-img'>
-  Insert image here
+<div class='link1'>
+  <a href='acercade.html'>¬øQu&eacute; es JaguarSoft?</a>
+  <a href='mision.html'>Misi&oacute;n</a>
+  <a href='vision.html'>Visi&oacute;n</a>
+  <a href='valores.html'>Valores</a>
 </div>
-;T;@OI"/servicios/;T{;{	;I"∞<!DOCTYPE html>
+<div class='side_images'>
+  <br />
+  <img height='400px' src='img/leader.jpg' width='400px' />
+</div>
+;T;@OI"/servicios/;T{;{	;I"<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2310,7 +2405,7 @@ I"?<div class='link1'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -2324,43 +2419,78 @@ I"?<div class='link1'>
         </ul>
       </div>
       <div id='content'>
-        <div class='services'>
+        <div id='services'>
           <h2>Cat&aacute;logo de servicios</h2>
           <br />
-          <p>Desarrollo de aplicaciones de gesti&oacute;n para escritorio o basadas en web.</p>
-          <p>Desarrollo de aplicacionespara dispositivos mo&oacute;viles.</p>
-          <p>Implementaci&oacute;n y administraci&oacute; de aplicaciones para negocios electr&oacute;nicos.</p>
-          <p>Dise&ntiled;o, indtalaci&oacute;n y administraci&oacute;n de tecnolog&iacute;as de redes de computadoras.</p>
-          <p>Mantenimiento preventivo y correctivo de equipo de c&oacute;mputo.</p>
-          <p>Consutlr&iacute;, asesor&iacute; en TIC's.</p>
+          <ul>
+            <li>Desarrollo de aplicaciones de gesti&oacute;n para escritorio o basadas en web.</li>
+            <li>Desarrollo de aplicacionespara dispositivos m&oacute;viles.</li>
+            <li>Implementaci&oacute;n y administraci&oacute; de aplicaciones para negocios electr&oacute;nicos.</li>
+            <li>Dise&ntilde;o, instalaci&oacute;n y administraci&oacute;n de tecnolog&iacute;as de redes de computadoras.</li>
+            <li>Mantenimiento preventivo y correctivo de equipo de c&oacute;mputo.</li>
+            <li>Consultor&iacute;a, asesor&iacute;a en TIC's.</li>
+          </ul>
+          <br />
+        </div>
+        <div class='side_images'>
+          <img height='360px' src='img/consultoria.jpg' width='450px' />
+        </div>
+        <div id='foot_images'>
+          <img height='300px' src='img/internet.jpg' width='400px' />
+          <img height='300px' src='img/red.jpg' width='400px' />
+          <img height='300px' src='img/tablet.jpg' width='400px' />
         </div>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"%div.services
+;T;	I"<#services
   %h2 Cat&aacute;logo de servicios
   %br
-  %p Desarrollo de aplicaciones de gesti&oacute;n para escritorio o basadas en web.
-  %p Desarrollo de aplicacionespara dispositivos mo&oacute;viles.
-  %p Implementaci&oacute;n y administraci&oacute; de aplicaciones para negocios electr&oacute;nicos.
-  %p Dise&ntiled;o, indtalaci&oacute;n y administraci&oacute;n de tecnolog&iacute;as de redes de computadoras.
-  %p Mantenimiento preventivo y correctivo de equipo de c&oacute;mputo.
-  %p Consutlr&iacute;, asesor&iacute; en TIC's.;T;
-I"I<div class='services'>
+  %ul
+    %li Desarrollo de aplicaciones de gesti&oacute;n para escritorio o basadas en web.
+    %li Desarrollo de aplicacionespara dispositivos m&oacute;viles.
+    %li Implementaci&oacute;n y administraci&oacute; de aplicaciones para negocios electr&oacute;nicos.
+    %li Dise&ntilde;o, instalaci&oacute;n y administraci&oacute;n de tecnolog&iacute;as de redes de computadoras.
+    %li Mantenimiento preventivo y correctivo de equipo de c&oacute;mputo.
+    %li Consultor&iacute;a, asesor&iacute;a en TIC's.
+  %br
+
+.side_images
+  %img(src="img/consultoria.jpg" width="450px" height="360px")
+
+#foot_images
+  %img(src="img/internet.jpg" width="400px" height="300px")
+  %img(src="img/red.jpg" width="400px" height="300px")
+  %img(src="img/tablet.jpg" width="400px" height="300px");T;
+I"´<div id='services'>
   <h2>Cat&aacute;logo de servicios</h2>
   <br />
-  <p>Desarrollo de aplicaciones de gesti&oacute;n para escritorio o basadas en web.</p>
-  <p>Desarrollo de aplicacionespara dispositivos mo&oacute;viles.</p>
-  <p>Implementaci&oacute;n y administraci&oacute; de aplicaciones para negocios electr&oacute;nicos.</p>
-  <p>Dise&ntiled;o, indtalaci&oacute;n y administraci&oacute;n de tecnolog&iacute;as de redes de computadoras.</p>
-  <p>Mantenimiento preventivo y correctivo de equipo de c&oacute;mputo.</p>
-  <p>Consutlr&iacute;, asesor&iacute; en TIC's.</p>
+  <ul>
+    <li>Desarrollo de aplicaciones de gesti&oacute;n para escritorio o basadas en web.</li>
+    <li>Desarrollo de aplicacionespara dispositivos m&oacute;viles.</li>
+    <li>Implementaci&oacute;n y administraci&oacute; de aplicaciones para negocios electr&oacute;nicos.</li>
+    <li>Dise&ntilde;o, instalaci&oacute;n y administraci&oacute;n de tecnolog&iacute;as de redes de computadoras.</li>
+    <li>Mantenimiento preventivo y correctivo de equipo de c&oacute;mputo.</li>
+    <li>Consultor&iacute;a, asesor&iacute;a en TIC's.</li>
+  </ul>
+  <br />
 </div>
-;T;@UI"/proyectos/;T{;{	;I"	<!DOCTYPE html>
+<div class='side_images'>
+  <img height='360px' src='img/consultoria.jpg' width='450px' />
+</div>
+<div id='foot_images'>
+  <img height='300px' src='img/internet.jpg' width='400px' />
+  <img height='300px' src='img/red.jpg' width='400px' />
+  <img height='300px' src='img/tablet.jpg' width='400px' />
+</div>
+;T;@UI"/proyectos/;T{;{	;I"‘<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2414,7 +2544,7 @@ I"I<div class='services'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -2428,189 +2558,197 @@ I"I<div class='services'>
         </ul>
       </div>
       <div id='content'>
-        <table id='empresas'>
-          <tr>
-            <td align='center'>
-              <h2>SEDER</h2>
-              <img class='logo_empresas' src='img/colima_late.png' />
-            </td>
-            <td align='center'>
-              <h2>CIAPACOV</h2>
-              <img class='logo_empresas' src='img/ciapacov.png' />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href='siiseem.html'>Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.</a>
-            </td>
-            <td>Sistema para el &aacute;area comercial.</td>
-          </tr>
-          <tr>
-            <td>
-              <a href='preeabc.html'>Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.</a>
-            </td>
-            <td>M&oacute;dulo solicitudes y contrato.</td>
-          </tr>
-          <tr>
-            <td>
-              <a href='safec.html'>Sistemade alertas fitosanitarias para el estado de colima.</a>
-            </td>
-            <td>M&oacute;dulo convenios y rrequerimientos.</td>
-          </tr>
-          <tr>
-            <td>
-              <a href='rimdm.html'>Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.</a>
-            </td>
-            <td>M&oacute;dulo generaci&oacute;n de recibos.</td>
-          </tr>
-          <tr>
-            <td>
-              <a href='secda.html'>Sistema de evaluaci&oacute;n y consulta para el desarrollo agr&iacute;cola.</a>
-            </td>
-            <td>Administrac&oacute;n de cajas.</td>
-          </tr>
-          <tr>
-            <td>
-              <a href='sigvtec.html'>SIG-V-TEC</a>
-            </td>
-            <td>M&oacute;dulo admisnitraci&oacute;n del sistema</td>
-          </tr>
-          <tr>
-            <td>
-              <a href='sepcc.html'>Sistema para elaborar presupuestos  de cultivos y su comercializaci&oacute;n.</a>
-            </td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>
-              <a href='sic.html'>Sistema de infromaci&oacute;n de cultivos.</a>
-            </td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>
-              <a href='mav.html'>Mercado agr&iacute;cola virtual.</a>
-            </td>
-            <td></td>
-          </tr>
-        </table>
+        <div id='proyectos'>
+          <table id='empresas'>
+            <tr>
+              <td align='center'>
+                <h2>SEDER</h2>
+                <img class='logo_empresas' src='img/colima_late.png' />
+              </td>
+              <td align='center'>
+                <h2>CIAPACOV</h2>
+                <img class='logo_empresas' src='img/ciapacov.png' />
+              </td>
+              <tr>
+                <td>
+                  <a href='siiseem.html'>Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.</a>
+                </td>
+                <td>Sistema para el &aacute;area comercial.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href='preeabc.html'>Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.</a>
+                </td>
+                <td>M&oacute;dulo solicitudes y contrato.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href='safec.html'>Sistemade alertas fitosanitarias para el estado de colima.</a>
+                </td>
+                <td>M&oacute;dulo convenios y rrequerimientos.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href='rimdm.html'>Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.</a>
+                </td>
+                <td>M&oacute;dulo generaci&oacute;n de recibos.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href='secda.html'>Sistema de evaluaci&oacute;n y consulta para el desarrollo agr&iacute;cola.</a>
+                </td>
+                <td>Administrac&oacute;n de cajas.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href='sigvtec.html'>SIG-V-TEC</a>
+                </td>
+                <td>M&oacute;dulo admisnitraci&oacute;n del sistema</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href='sepcc.html'>Sistema para elaborar presupuestos  de cultivos y su comercializaci&oacute;n.</a>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href='sic.html'>Sistema de infromaci&oacute;n de cultivos.</a>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href='mav.html'>Mercado agr&iacute;cola virtual.</a>
+                </td>
+                <td></td>
+              </tr>
+            </tr>
+          </table>
+        </div>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"Ø%table#empresas
-  %tr
-    %td(align='center') 
-      %h2 SEDER
-      %img(src="img/colima_late.png" class="logo_empresas")
-    %td(align='center') 
-      %h2 CIAPACOV
-      %img(src="img/ciapacov.png" class="logo_empresas")
-  %tr
-    %td 
-      %a(href="siiseem.html") Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.
-    %td Sistema para el &aacute;area comercial.
-  %tr
-    %td
-      %a(href="preeabc.html") Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.
-    %td M&oacute;dulo solicitudes y contrato.
-  %tr
-    %td
-      %a(href="safec.html") Sistemade alertas fitosanitarias para el estado de colima.
-    %td M&oacute;dulo convenios y rrequerimientos.
-  %tr
-    %td
-      %a(href="rimdm.html") Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.
-    %td M&oacute;dulo generaci&oacute;n de recibos.
-  %tr
-    %td 
-      %a(href="secda.html") Sistema de evaluaci&oacute;n y consulta para el desarrollo agr&iacute;cola.
-    %td Administrac&oacute;n de cajas.
-  %tr
-    %td
-      %a(href="sigvtec.html") SIG-V-TEC
-    %td M&oacute;dulo admisnitraci&oacute;n del sistema 
-  %tr
-    %td
-      %a(href="sepcc.html") Sistema para elaborar presupuestos  de cultivos y su comercializaci&oacute;n.
-    %td
-  %tr
-    %td 
-      %a(href="sic.html") Sistema de infromaci&oacute;n de cultivos.
-    %td
-  %tr
-    %td 
-      %a(href="mav.html") Mercado agr&iacute;cola virtual.
-    %td;T;
-I"‚<table id='empresas'>
-  <tr>
-    <td align='center'>
-      <h2>SEDER</h2>
-      <img class='logo_empresas' src='img/colima_late.png' />
-    </td>
-    <td align='center'>
-      <h2>CIAPACOV</h2>
-      <img class='logo_empresas' src='img/ciapacov.png' />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href='siiseem.html'>Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.</a>
-    </td>
-    <td>Sistema para el &aacute;area comercial.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href='preeabc.html'>Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.</a>
-    </td>
-    <td>M&oacute;dulo solicitudes y contrato.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href='safec.html'>Sistemade alertas fitosanitarias para el estado de colima.</a>
-    </td>
-    <td>M&oacute;dulo convenios y rrequerimientos.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href='rimdm.html'>Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.</a>
-    </td>
-    <td>M&oacute;dulo generaci&oacute;n de recibos.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href='secda.html'>Sistema de evaluaci&oacute;n y consulta para el desarrollo agr&iacute;cola.</a>
-    </td>
-    <td>Administrac&oacute;n de cajas.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href='sigvtec.html'>SIG-V-TEC</a>
-    </td>
-    <td>M&oacute;dulo admisnitraci&oacute;n del sistema</td>
-  </tr>
-  <tr>
-    <td>
-      <a href='sepcc.html'>Sistema para elaborar presupuestos  de cultivos y su comercializaci&oacute;n.</a>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <a href='sic.html'>Sistema de infromaci&oacute;n de cultivos.</a>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <a href='mav.html'>Mercado agr&iacute;cola virtual.</a>
-    </td>
-    <td></td>
-  </tr>
-</table>
+;T;	I"Z#proyectos
+  %table#empresas
+    %tr
+      %td(align='center') 
+        %h2 SEDER
+        %img(src="img/colima_late.png" class="logo_empresas")
+      %td(align='center') 
+        %h2 CIAPACOV
+        %img(src="img/ciapacov.png" class="logo_empresas")
+      %tr
+        %td 
+          %a(href="siiseem.html") Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.
+        %td Sistema para el &aacute;area comercial.
+      %tr
+        %td
+          %a(href="preeabc.html") Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.
+        %td M&oacute;dulo solicitudes y contrato.
+      %tr
+        %td
+          %a(href="safec.html") Sistemade alertas fitosanitarias para el estado de colima.
+        %td M&oacute;dulo convenios y rrequerimientos.
+      %tr
+        %td
+          %a(href="rimdm.html") Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.
+        %td M&oacute;dulo generaci&oacute;n de recibos.
+      %tr
+        %td 
+          %a(href="secda.html") Sistema de evaluaci&oacute;n y consulta para el desarrollo agr&iacute;cola.
+        %td Administrac&oacute;n de cajas.
+      %tr
+        %td
+          %a(href="sigvtec.html") SIG-V-TEC
+        %td M&oacute;dulo admisnitraci&oacute;n del sistema 
+      %tr
+        %td
+          %a(href="sepcc.html") Sistema para elaborar presupuestos  de cultivos y su comercializaci&oacute;n.
+        %td
+      %tr
+        %td 
+          %a(href="sic.html") Sistema de infromaci&oacute;n de cultivos.
+        %td
+      %tr
+        %td 
+          %a(href="mav.html") Mercado agr&iacute;cola virtual.
+        %td;T;
+I"Ó<div id='proyectos'>
+  <table id='empresas'>
+    <tr>
+      <td align='center'>
+        <h2>SEDER</h2>
+        <img class='logo_empresas' src='img/colima_late.png' />
+      </td>
+      <td align='center'>
+        <h2>CIAPACOV</h2>
+        <img class='logo_empresas' src='img/ciapacov.png' />
+      </td>
+      <tr>
+        <td>
+          <a href='siiseem.html'>Sistema de intercambio de informaci&oacute; segura entre equipos m&oacute;viles.</a>
+        </td>
+        <td>Sistema para el &aacute;area comercial.</td>
+      </tr>
+      <tr>
+        <td>
+          <a href='preeabc.html'>Red estatal de estacions agroclimatol&oacute;gicas de bajo costo.</a>
+        </td>
+        <td>M&oacute;dulo solicitudes y contrato.</td>
+      </tr>
+      <tr>
+        <td>
+          <a href='safec.html'>Sistemade alertas fitosanitarias para el estado de colima.</a>
+        </td>
+        <td>M&oacute;dulo convenios y rrequerimientos.</td>
+      </tr>
+      <tr>
+        <td>
+          <a href='rimdm.html'>Recolecci&oacute; de inidicadorees de la SEDER mediante dispositivos m&oacute;viles.</a>
+        </td>
+        <td>M&oacute;dulo generaci&oacute;n de recibos.</td>
+      </tr>
+      <tr>
+        <td>
+          <a href='secda.html'>Sistema de evaluaci&oacute;n y consulta para el desarrollo agr&iacute;cola.</a>
+        </td>
+        <td>Administrac&oacute;n de cajas.</td>
+      </tr>
+      <tr>
+        <td>
+          <a href='sigvtec.html'>SIG-V-TEC</a>
+        </td>
+        <td>M&oacute;dulo admisnitraci&oacute;n del sistema</td>
+      </tr>
+      <tr>
+        <td>
+          <a href='sepcc.html'>Sistema para elaborar presupuestos  de cultivos y su comercializaci&oacute;n.</a>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <a href='sic.html'>Sistema de infromaci&oacute;n de cultivos.</a>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <a href='mav.html'>Mercado agr&iacute;cola virtual.</a>
+        </td>
+        <td></td>
+      </tr>
+    </tr>
+  </table>
+</div>
 ;T;@[I"/img/ciapacov/;T{;{ I"/img/colima_late/;T{;{ I"/img/siiseem/;T{;{ I"/seder/siiseem/;T{;{	;I"Z<!DOCTYPE html>
 <html lang='en'>
   <head>
@@ -2746,7 +2884,7 @@ I"P<link href='../stylesheets/stylesheet.css' media='screen' rel='stylesheet' 
     <li>Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.</li>
   </ul>
 </div>
-;T;@jI"/siiseem/;T{;{	;I"Â<!DOCTYPE html>
+;T;@jI"/siiseem/;T{;{	;I"ì<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2800,7 +2938,7 @@ I"P<link href='../stylesheets/stylesheet.css' media='screen' rel='stylesheet' 
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -2814,7 +2952,7 @@ I"P<link href='../stylesheets/stylesheet.css' media='screen' rel='stylesheet' 
         </ul>
       </div>
       <div id='content'>
-        <div class='proyectos'>
+        <div class='proyecto'>
           <h2>Sistema de Intercambio de Informaci&oacute;n Segura Entre Equipos M&oacute;viles</h2>
           <br />
           <h3>Objetivo</h3>
@@ -2838,11 +2976,14 @@ I"P<link href='../stylesheets/stylesheet.css' media='screen' rel='stylesheet' 
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"›%div(class="proyectos")
+;T;	I"‹%div(class="proyecto")
   %h2 Sistema de Intercambio de Informaci&oacute;n Segura Entre Equipos M&oacute;viles
   %br
 
@@ -2865,7 +3006,7 @@ I"P<link href='../stylesheets/stylesheet.css' media='screen' rel='stylesheet' 
     %li Automatizar agenda del personal directivo.
     %li Permitir el intercambio de informaci&oacute;n en tiempo real entre el personal directivo de la SEDER.
     %li Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.;T;
-I"&<div class='proyectos'>
+I"%<div class='proyecto'>
   <h2>Sistema de Intercambio de Informaci&oacute;n Segura Entre Equipos M&oacute;viles</h2>
   <br />
   <h3>Objetivo</h3>
@@ -2886,7 +3027,7 @@ I"&<div class='proyectos'>
     <li>Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.</li>
   </ul>
 </div>
-;T;@pI"/preeabc/;T{;{	;I"Ò<!DOCTYPE html>
+;T;@pI"/preeabc/;T{;{	;I"ü<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2940,7 +3081,7 @@ I"&<div class='proyectos'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -2954,7 +3095,7 @@ I"&<div class='proyectos'>
         </ul>
       </div>
       <div id='content'>
-        <div class='proyectos'>
+        <div class='proyecto'>
           <h2>Prototipo de Red Estatal de Estaciones Agroclimatol&oacute;gicas de Bajo Costo</h2>
           <br />
           <h3>Objetivo</h3>
@@ -2981,11 +3122,14 @@ I"&<div class='proyectos'>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"¬%div(class="proyectos")
+;T;	I"¡%div(class="proyecto")
   %h2 Prototipo de Red Estatal de Estaciones Agroclimatol&oacute;gicas de Bajo Costo
   %br
 
@@ -3011,7 +3155,7 @@ I"&<div class='proyectos'>
     %li Precisi&oacute;n de la informaci&oacute;n.
     %li Acceso a la informaci&oacute;n desde distintos dispositivos.
     %li Flexibilidad en la infrestuctura.;T;
-I"<div class='proyectos'>
+I"<div class='proyecto'>
   <h2>Prototipo de Red Estatal de Estaciones Agroclimatol&oacute;gicas de Bajo Costo</h2>
   <br />
   <h3>Objetivo</h3>
@@ -3035,7 +3179,7 @@ I"<div class='proyectos'>
     <li>Flexibilidad en la infrestuctura.</li>
   </ul>
 </div>
-;T;@vI"/img/preeabc/;T{;{ I"/img/safec/;T{;{ I"/safec/;T{;{	;I"j<!DOCTYPE html>
+;T;@vI"/img/preeabc/;T{;{ I"/img/safec/;T{;{ I"/safec/;T{;{	;I"<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3089,7 +3233,7 @@ I"<div class='proyectos'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -3103,7 +3247,7 @@ I"<div class='proyectos'>
         </ul>
       </div>
       <div id='content'>
-        <div class='proyectos'>
+        <div class='proyecto'>
           <h2>Sistema de Alertas Fitosanitarias para el Estado de Colima</h2>
           <br />
           <h3>Objetivo</h3>
@@ -3126,11 +3270,14 @@ I"<div class='proyectos'>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"p%div(class="proyectos")
+;T;	I"o%div(class="proyecto")
   %h2 Sistema de Alertas Fitosanitarias para el Estado de Colima 
   %br
 
@@ -3152,7 +3299,7 @@ I"<div class='proyectos'>
   %ul
     %li Ofrecer a los agricultores agropecuarios informaci&oacute;n meteorol&oacute;gica en tiempo real, que puede ser aplicada a los procesos de producci&oacute;n y protecci&oacute;n sanitaria ante clima adverso.
     %li Informar de manera oportuna sobre la presencia de condiciones que propenden a la aparici&oacute;n de plagas y enfermedades.;T;
-I"≥<div class='proyectos'>
+I"≤<div class='proyecto'>
   <h2>Sistema de Alertas Fitosanitarias para el Estado de Colima</h2>
   <br />
   <h3>Objetivo</h3>
@@ -3172,7 +3319,7 @@ I"≥<div class='proyectos'>
     <li>Informar de manera oportuna sobre la presencia de condiciones que propenden a la aparici&oacute;n de plagas y enfermedades.</li>
   </ul>
 </div>
-;T;@}I"/img/rimdm/;T{;{ I"/rimdm/;T{;{	;I"8<!DOCTYPE html>
+;T;@}I"/img/rimdm/;T{;{ I"/rimdm/;T{;{	;I"Ê<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3226,7 +3373,7 @@ I"≥<div class='proyectos'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -3240,7 +3387,7 @@ I"≥<div class='proyectos'>
         </ul>
       </div>
       <div id='content'>
-        <div class='proyectos'>
+        <div class='proyecto'>
           <h2>Recolecci&oacute;n de Indicadores de la SEDER Mediante Dispositivos M&oacute;viles</h2>
           <br />
           <h3>Objetivo</h3>
@@ -3257,11 +3404,14 @@ I"≥<div class='proyectos'>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"Ö%div(class="proyectos")
+;T;	I"Ñ%div(class="proyecto")
   %h2 Recolecci&oacute;n de Indicadores de la SEDER Mediante Dispositivos M&oacute;viles
   %br
 
@@ -3277,7 +3427,7 @@ I"≥<div class='proyectos'>
   %img(src="img/rimdm.png" width="500px" height="400px")
   %br
   %br;T;
-I"±<div class='proyectos'>
+I"∞<div class='proyecto'>
   <h2>Recolecci&oacute;n de Indicadores de la SEDER Mediante Dispositivos M&oacute;viles</h2>
   <br />
   <h3>Objetivo</h3>
@@ -3291,7 +3441,7 @@ I"±<div class='proyectos'>
   <br />
   <br />
 </div>
-;T;@ÜI"/img/secda/;T{;{ I"/secda/;T{;{	;I"<!DOCTYPE html>
+;T;@ÜI"/img/secda/;T{;{ I"/secda/;T{;{	;I"√<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3345,7 +3495,7 @@ I"±<div class='proyectos'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -3359,7 +3509,7 @@ I"±<div class='proyectos'>
         </ul>
       </div>
       <div id='content'>
-        <div class='proyectos'>
+        <div class='proyecto'>
           <h2>Sistema de Evaluaci&oacute;n y Consulta para el Desarrollo Agr&iacute;cola</h2>
           <br />
           <h3>Objetivo</h3>
@@ -3383,11 +3533,14 @@ I"±<div class='proyectos'>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"%div(class="proyectos")
+;T;	I"%div(class="proyecto")
   %h2 Sistema de Evaluaci&oacute;n y Consulta para el Desarrollo Agr&iacute;cola 
   %br
 
@@ -3409,7 +3562,7 @@ I"±<div class='proyectos'>
   %br
   %img(src="img/secda.png" width="500px" height="400px")
   %br;T;
-I"V<div class='proyectos'>
+I"U<div class='proyecto'>
   <h2>Sistema de Evaluaci&oacute;n y Consulta para el Desarrollo Agr&iacute;cola</h2>
   <br />
   <h3>Objetivo</h3>
@@ -3430,7 +3583,7 @@ I"V<div class='proyectos'>
   <img height='400px' src='img/secda.png' width='500px' />
   <br />
 </div>
-;T;@èI"/img/sepcc/;T{;{ I"/sepcc/;T{;{	;I"~<!DOCTYPE html>
+;T;@èI"/img/sepcc/;T{;{ I"/sepcc/;T{;{	;I",<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3484,7 +3637,7 @@ I"V<div class='proyectos'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -3498,7 +3651,7 @@ I"V<div class='proyectos'>
         </ul>
       </div>
       <div id='content'>
-        <div class='proyectos'>
+        <div class='proyecto'>
           <h2>Sistema para Elaborar Presupuestos de Cultivos y su Comercializaci&oacute;n</h2>
           <br />
           <h3>Objetivo</h3>
@@ -3515,11 +3668,14 @@ I"V<div class='proyectos'>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"Ã%div(class="proyectos")
+;T;	I"À%div(class="proyecto")
   %h2 Sistema para Elaborar Presupuestos de Cultivos y su Comercializaci&oacute;n 
   %br
 
@@ -3535,7 +3691,7 @@ I"V<div class='proyectos'>
   %img(src="img/sepcc.png" width="300px" height="400px")
   %br
   %br;T;
-I"˜<div class='proyectos'>
+I"ˆ<div class='proyecto'>
   <h2>Sistema para Elaborar Presupuestos de Cultivos y su Comercializaci&oacute;n</h2>
   <br />
   <h3>Objetivo</h3>
@@ -3549,7 +3705,7 @@ I"˜<div class='proyectos'>
   <br />
   <br />
 </div>
-;T;@òI"/img/sigvtec/;T{;{ I"/sigvtec/;T{;{	;I"ô<!DOCTYPE html>
+;T;@òI"/img/sigvtec/;T{;{ I"/sigvtec/;T{;{	;I"G<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3603,7 +3759,7 @@ I"˜<div class='proyectos'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -3617,7 +3773,7 @@ I"˜<div class='proyectos'>
         </ul>
       </div>
       <div id='content'>
-        <div class='proyectos'>
+        <div class='proyecto'>
           <h2>Sistema de Informaci&oacute;n Geogr&aacute;fica para la Vocaci&oacute;n de la Tierra del Estado de Colima (SIG-V-TEC)</h2>
           <br />
           <h3>Objetivo</h3>
@@ -3634,11 +3790,14 @@ I"˜<div class='proyectos'>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"Ê%div(class="proyectos")
+;T;	I"Â%div(class="proyecto")
   %h2 Sistema de Informaci&oacute;n Geogr&aacute;fica para la Vocaci&oacute;n de la Tierra del Estado de Colima (SIG-V-TEC) 
   %br
 
@@ -3654,7 +3813,7 @@ I"˜<div class='proyectos'>
   %img(src="img/sigvtec.png" width="500px" height="400px")
   %br
   %br;T;
-I"<div class='proyectos'>
+I"<div class='proyecto'>
   <h2>Sistema de Informaci&oacute;n Geogr&aacute;fica para la Vocaci&oacute;n de la Tierra del Estado de Colima (SIG-V-TEC)</h2>
   <br />
   <h3>Objetivo</h3>
@@ -3669,7 +3828,7 @@ I"<div class='proyectos'>
   <br />
 </div>
 ;T;@°I"
-/sic/;T{;{	;I"3<!DOCTYPE html>
+/sic/;T{;{	;I"·<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3723,7 +3882,7 @@ I"<div class='proyectos'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -3737,7 +3896,7 @@ I"<div class='proyectos'>
         </ul>
       </div>
       <div id='content'>
-        <div class='proyectos'>
+        <div class='proyecto'>
           <h2>Sistema de Informaci&oacute;n de Cultivos</h2>
           <br />
           <h3>Objetivo</h3>
@@ -3754,11 +3913,14 @@ I"<div class='proyectos'>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"Å%div(class="proyectos")
+;T;	I"Ä%div(class="proyecto")
   %h2 Sistema de Informaci&oacute;n de Cultivos 
   %br
 
@@ -3774,7 +3936,7 @@ I"<div class='proyectos'>
   %img(src="img/sic.png" width="500px" height="400px")
   %br
   %br;T;
-I"¨<div class='proyectos'>
+I"´<div class='proyecto'>
   <h2>Sistema de Informaci&oacute;n de Cultivos</h2>
   <br />
   <h3>Objetivo</h3>
@@ -3789,7 +3951,7 @@ I"¨<div class='proyectos'>
   <br />
 </div>
 ;T;@ßI"/img/sic/;T{;{ I"/img/mav/;T{;{ I"
-/mav/;T{;{	;I"B<!DOCTYPE html>
+/mav/;T{;{	;I"<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3843,7 +4005,7 @@ I"¨<div class='proyectos'>
         <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
           Comunidad
         </a>
-        <a href=''>Contacto</a>
+        <a href='contacto.html'>Contacto</a>
         <a href='acercade.html'>Acerca de ...</a>
       </div>
       <div id='v-menu' style='display:none;'>
@@ -3857,7 +4019,7 @@ I"¨<div class='proyectos'>
         </ul>
       </div>
       <div id='content'>
-        <div class='proyectos'>
+        <div class='proyecto'>
           <h2>Mercado Agr&iacute;cola Virtual</h2>
           <br />
           <h3>Objetivo</h3>
@@ -3882,11 +4044,14 @@ I"¨<div class='proyectos'>
       </div>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
-;T;	I"*%div(class="proyectos")
+;T;	I")%div(class="proyecto")
   %h2 Mercado Agr&iacute;cola Virtual 
   %br
 
@@ -3909,7 +4074,7 @@ I"¨<div class='proyectos'>
     %li Trnasacci&oacute;n directa productor - consumidor.
     %li Reducci&oacute;n de intermediarios.
     %li Transacciones comerciales: trueques, subastas, intercambios.;T;
-I"{<div class='proyectos'>
+I"z<div class='proyecto'>
   <h2>Mercado Agr&iacute;cola Virtual</h2>
   <br />
   <h3>Objetivo</h3>
@@ -3931,4 +4096,153 @@ I"{<div class='proyectos'>
     <li>Transacciones comerciales: trueques, subastas, intercambios.</li>
   </ul>
 </div>
-;T;@≥I"/img/dot/;T{;{ :versioni
+;T;@≥I"/img/dot/;T{;{ I"/img/tec/;T{;{ I"/img/red/;T{;{ I"/img/tablet/;T{;{ I"/img/tablet2/;T{;{ I"/img/internet/;T{;{ I"/img/consultoria/;T{;{ I"/img/earth_one_finger/;T{;{ I"/img/success/;T{;{ I"/img/bussiness/;T{;{ I"/img/leader/;T{;{ I"/contacto/;T{;{	;I"D<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      JaguarSoft
+    </title>
+    <link href='stylesheets/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <meta content='nanoc 3.3.0' name='generator'>
+    <script>
+      //<![CDATA[
+        var hide = false;
+        function showElement(layer){
+        var myLayer = document.getElementById(layer);
+        if(myLayer.style.display=="none"){
+        myLayer.style.display="block";
+        myLayer.backgroundPosition="top";
+        } 
+        }
+        function activeHide(layer){
+        console.log(layer);
+        var myLayer = document.getElementById(layer);
+        if(hide === true)
+        myLayer.style.display="none";
+        }
+        function hideElement(layer){
+        hide=true;
+        setTimeout("activeHide('"+layer+"')", 200);
+        }
+        function cancelHide(){
+        hide=false;
+        }
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <span id='logo'>
+          <a href='#'>JagurSoft</a>
+        </span>
+        <span id='logoitc'>
+          <a href='http://www.itcolima.edu.mx'>Instituto Tecnol&oacute;gico de Colima</a>
+        </span>
+      </div>
+      <div id='menubar'>
+        <a href='index.html' id='corner'>Inicio</a>
+        <a href='servicios.html'>Soluciones Tecnol&oacute;gicas</a>
+        <a href='proyectos.html'>Proyectos</a>
+        <a href=''>Software</a>
+        <a href=''>Integrantes</a>
+        <a class='button' href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver="javascript:showElement('v-menu')">
+          Comunidad
+        </a>
+        <a href='contacto.html'>Contacto</a>
+        <a href='acercade.html'>Acerca de ...</a>
+      </div>
+      <div id='v-menu' style='display:none;'>
+        <ul>
+          <li>
+            <a href='#' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>DEPI</a>
+          </li>
+          <li>
+            <a href='http://grubytec.github.com' onMouseOut="javascript:hideElement('v-menu')" onMouseOver='javascript:cancelHide()'>GRubyTec</a>
+          </li>
+        </ul>
+      </div>
+      <div id='content'>
+        <div id='contact'>
+          <br />
+          <p>Para mayores informes favor de contactarnos:</p>
+          <br />
+          <p>
+            Instituto Tecnol&oacute;gico de Colima
+            <br />
+            Calle: Av. Tecnol&oacute;gico No. 1 Villa &Aacute;lvarez, A.P. 10 y 128
+            <br />
+            C.P. 28976
+            <br />
+            Villa &Aacute;lvarez, Colima.
+            <br />
+            Tel: (01) (312) 312-6393, 312-9920, 314-0683 y 314-0933.
+            <br />
+            <br />
+            Jes&uacute;s Alberto Verduzco Ram&iacute;rez.
+            <br />
+            Encargado del Departamento de Estudios de Posgrado e Investigaci&oacute;n.
+            <br />
+            Correo: averduzco@itcolima.edu.mx
+          </p>
+        </div>
+        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Instituto+Tecnologico+de+Colima&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.502405,86.044922&amp;t=h&amp;ie=UTF8&amp;hq=Instituto+Tecnologico+de+Colima&amp;ll=19.262894,-103.723486&amp;spn=0.022444,0.042014&amp;z=14&amp;iwloc=A&amp;cid=2211976993185088638&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Instituto+Tecnologico+de+Colima&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.502405,86.044922&amp;t=h&amp;ie=UTF8&amp;hq=Instituto+Tecnologico+de+Colima&amp;ll=19.262894,-103.723486&amp;spn=0.022444,0.042014&amp;z=14&amp;iwloc=A&amp;cid=2211976993185088638" style="color:#0000FF;text-align:left"></a></small>
+      </div>
+      <div id='footer'>
+        &copy; Todos los derechos reservados a JaguarSoft (2012)
+        <p>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+;T;	I"É#contact
+  %br
+  %p Para mayores informes favor de contactarnos:
+  %br
+  %p
+    Instituto Tecnol&oacute;gico de Colima
+    %br
+    Calle: Av. Tecnol&oacute;gico No. 1 Villa &Aacute;lvarez, A.P. 10 y 128
+    %br
+    C.P. 28976
+    %br
+    Villa &Aacute;lvarez, Colima.
+    %br
+    Tel: (01) (312) 312-6393, 312-9920, 314-0683 y 314-0933.
+    %br
+    %br
+    Jes&uacute;s Alberto Verduzco Ram&iacute;rez.
+    %br
+    Encargado del Departamento de Estudios de Posgrado e Investigaci&oacute;n.
+    %br
+    Correo: averduzco@itcolima.edu.mx
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Instituto+Tecnologico+de+Colima&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.502405,86.044922&amp;t=h&amp;ie=UTF8&amp;hq=Instituto+Tecnologico+de+Colima&amp;ll=19.262894,-103.723486&amp;spn=0.022444,0.042014&amp;z=14&amp;iwloc=A&amp;cid=2211976993185088638&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Instituto+Tecnologico+de+Colima&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.502405,86.044922&amp;t=h&amp;ie=UTF8&amp;hq=Instituto+Tecnologico+de+Colima&amp;ll=19.262894,-103.723486&amp;spn=0.022444,0.042014&amp;z=14&amp;iwloc=A&amp;cid=2211976993185088638" style="color:#0000FF;text-align:left"></a></small>;T;
+I"æ<div id='contact'>
+  <br />
+  <p>Para mayores informes favor de contactarnos:</p>
+  <br />
+  <p>
+    Instituto Tecnol&oacute;gico de Colima
+    <br />
+    Calle: Av. Tecnol&oacute;gico No. 1 Villa &Aacute;lvarez, A.P. 10 y 128
+    <br />
+    C.P. 28976
+    <br />
+    Villa &Aacute;lvarez, Colima.
+    <br />
+    Tel: (01) (312) 312-6393, 312-9920, 314-0683 y 314-0933.
+    <br />
+    <br />
+    Jes&uacute;s Alberto Verduzco Ram&iacute;rez.
+    <br />
+    Encargado del Departamento de Estudios de Posgrado e Investigaci&oacute;n.
+    <br />
+    Correo: averduzco@itcolima.edu.mx
+  </p>
+</div>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Instituto+Tecnologico+de+Colima&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.502405,86.044922&amp;t=h&amp;ie=UTF8&amp;hq=Instituto+Tecnologico+de+Colima&amp;ll=19.262894,-103.723486&amp;spn=0.022444,0.042014&amp;z=14&amp;iwloc=A&amp;cid=2211976993185088638&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Instituto+Tecnologico+de+Colima&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.502405,86.044922&amp;t=h&amp;ie=UTF8&amp;hq=Instituto+Tecnologico+de+Colima&amp;ll=19.262894,-103.723486&amp;spn=0.022444,0.042014&amp;z=14&amp;iwloc=A&amp;cid=2211976993185088638" style="color:#0000FF;text-align:left"></a></small>
+;T;@⁄:versioni
