@@ -322,7 +322,7 @@ div#v-menu{
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"�<!DOCTYPE html>
+I"/;T{;{	;I"C<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -393,7 +393,7 @@ I"/;T{;{	;I"�<!DOCTYPE html>
         <div class='index' id='div'>
           <h1>Bienvenidos a JaguarSoft</h1>
           <br />
-          <p><b>JaguarSoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.</p>
+          <p>Es un proyecto para el desarrollo y aplicaci&oacute;m de las TIC's con la finalidad de fortalecer la vinculaci&oacute;n de la comunidad tecnol&oacute;gica con los diferentes sectores.</p>
           <br />
           <img align='center' height='400px' src='img/tec.gif' width='700px' />
           <br />
@@ -410,11 +410,11 @@ I"/;T{;{	;I"�<!DOCTYPE html>
     </div>
   </body>
 </html>
-;T;	I"�#div.index
+;T;	I"�#div.index
   %h1 Bienvenidos a JaguarSoft
   %br
   
-  %p <b>JaguarSoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.
+  %p Es un proyecto para el desarrollo y aplicaci&oacute;m de las TIC's con la finalidad de fortalecer la vinculaci&oacute;n de la comunidad tecnol&oacute;gica con los diferentes sectores. 
   %br
   
   %img(src="img/tec.gif" width="700px" height="400px" align="center")
@@ -422,10 +422,10 @@ I"/;T{;{	;I"�<!DOCTYPE html>
   %br
   
   %p Este proyecto surge dentro de nuestro plantel el Instituto Tecnol&oacute;gico de Colima. Y ha seguido tras generaciones militantes, estudiantes de este mismo.;T;
-I"�<div class='index' id='div'>
+I"<div class='index' id='div'>
   <h1>Bienvenidos a JaguarSoft</h1>
   <br />
-  <p><b>JaguarSoft</b> es un proyecto dedicado a desarrollar el conocimiento y manejo de las TIC's.</p>
+  <p>Es un proyecto para el desarrollo y aplicaci&oacute;m de las TIC's con la finalidad de fortalecer la vinculaci&oacute;n de la comunidad tecnol&oacute;gica con los diferentes sectores.</p>
   <br />
   <img align='center' height='400px' src='img/tec.gif' width='700px' />
   <br />
@@ -1798,7 +1798,7 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
   //line-height: 20px; 
 //}
 ;T;
-@8I"/acercade/;T{;{	;I"�<!DOCTYPE html>
+@8I"/acercade/;T{;{	;I"�<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -1870,7 +1870,23 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
           <h1>¿Qué es jaguarsoft?</h1>
           <br />
           <br />
-          <p>Es un proyecto para el desarrollo y aplicaci&oacute;m de las TIC's con la finalidad de fortalecer la vinculaci&oacute;n de la comunidad tecnol&oacute;gica con los diferentes sectores.</p>
+          <p>El departamento de Sistemas y Computación cuenta con el Centro de Innovación y Producción de software denominado  JaguarSoft.  Se trata de un espacio donde los estudiantes de nivel licenciatura y los futuros estudiantes de posgrado pueden desarrollar  soluciones para las empresas del entorno.</p>
+          <br />
+          <br />
+          <h4>Objetivo general</h4>
+          <ul>
+            <li>Fortalecer la vinculación de la comunidad tecnológica con los diferentes sectores del entorno a través del desarrollo y aplicación de las TICs.</li>
+          </ul>
+          <br />
+          <h4>Objetivos especificos</h4>
+          <ul>
+            <li>Vincular  a la comunidad tecnológica con los sectores primario, secundario y terciario del estado de Colima.</li>
+            <li>Ofrecer soluciones a problemas y retos de innovación tecnológica del entorno.</li>
+            <li>Fortalecer la oferta de vinculación.</li>
+            <li>Utilizar un nuevo enfoque para el acercamiento de los departamentos educativos a las empresas.</li>
+            <li>Ver la vinculación como un negocio.</li>
+            <li>Considerar a la vinculación como una estrategia de nuevas oportunidades.</li>
+          </ul>
         </div>
         <div class='link1'>
           <a href='acercade.html'>¿Qu&eacute; es JaguarSoft?</a>
@@ -1891,11 +1907,27 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
     </div>
   </body>
 </html>
-;T;	I"�%div.val
+;T;	I":%div.val
   %h1 ¿Qué es jaguarsoft?
   %br
   %br
-  %p Es un proyecto para el desarrollo y aplicaci&oacute;m de las TIC's con la finalidad de fortalecer la vinculaci&oacute;n de la comunidad tecnol&oacute;gica con los diferentes sectores. 
+  %p El departamento de Sistemas y Computación cuenta con el Centro de Innovación y Producción de software denominado  JaguarSoft.  Se trata de un espacio donde los estudiantes de nivel licenciatura y los futuros estudiantes de posgrado pueden desarrollar  soluciones para las empresas del entorno.
+  %br
+  %br
+
+  %h4 Objetivo general
+  %ul
+    %li Fortalecer la vinculación de la comunidad tecnológica con los diferentes sectores del entorno a través del desarrollo y aplicación de las TICs. 
+  %br
+
+  %h4 Objetivos especificos
+  %ul
+    %li Vincular  a la comunidad tecnológica con los sectores primario, secundario y terciario del estado de Colima. 
+    %li Ofrecer soluciones a problemas y retos de innovación tecnológica del entorno. 
+    %li Fortalecer la oferta de vinculación.
+    %li Utilizar un nuevo enfoque para el acercamiento de los departamentos educativos a las empresas.
+    %li Ver la vinculación como un negocio.
+    %li Considerar a la vinculación como una estrategia de nuevas oportunidades. 
 
 %div.link1
   %a(href="acercade.html") ¿Qu&eacute; es JaguarSoft?
@@ -1905,11 +1937,27 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
   
 .side_images
   %img(src="img/earth_one_finger.jpg" width="300px" height="450px");T;
-I"B<div class='val'>
+I"�<div class='val'>
   <h1>¿Qué es jaguarsoft?</h1>
   <br />
   <br />
-  <p>Es un proyecto para el desarrollo y aplicaci&oacute;m de las TIC's con la finalidad de fortalecer la vinculaci&oacute;n de la comunidad tecnol&oacute;gica con los diferentes sectores.</p>
+  <p>El departamento de Sistemas y Computación cuenta con el Centro de Innovación y Producción de software denominado  JaguarSoft.  Se trata de un espacio donde los estudiantes de nivel licenciatura y los futuros estudiantes de posgrado pueden desarrollar  soluciones para las empresas del entorno.</p>
+  <br />
+  <br />
+  <h4>Objetivo general</h4>
+  <ul>
+    <li>Fortalecer la vinculación de la comunidad tecnológica con los diferentes sectores del entorno a través del desarrollo y aplicación de las TICs.</li>
+  </ul>
+  <br />
+  <h4>Objetivos especificos</h4>
+  <ul>
+    <li>Vincular  a la comunidad tecnológica con los sectores primario, secundario y terciario del estado de Colima.</li>
+    <li>Ofrecer soluciones a problemas y retos de innovación tecnológica del entorno.</li>
+    <li>Fortalecer la oferta de vinculación.</li>
+    <li>Utilizar un nuevo enfoque para el acercamiento de los departamentos educativos a las empresas.</li>
+    <li>Ver la vinculación como un negocio.</li>
+    <li>Considerar a la vinculación como una estrategia de nuevas oportunidades.</li>
+  </ul>
 </div>
 <div class='link1'>
   <a href='acercade.html'>¿Qu&eacute; es JaguarSoft?</a>
