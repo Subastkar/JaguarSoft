@@ -322,7 +322,7 @@ div#v-menu{
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"⁄<!DOCTYPE html>
+I"/;T{;{	;I"Í<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -404,7 +404,7 @@ I"/;T{;{	;I"⁄<!DOCTYPE html>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -1798,7 +1798,7 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
   //line-height: 20px; 
 //}
 ;T;
-@8I"/acercade/;T{;{	;I"Ä<!DOCTYPE html>
+@8I"/acercade/;T{;{	;I"ê<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -1885,7 +1885,7 @@ span#logoitc a, span#logoitc a:visited, span#logoitc a:hover, span#logoitc a:lin
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -1920,7 +1920,7 @@ I"B<div class='val'>
 <div class='side_images'>
   <img height='450px' src='img/earth_one_finger.jpg' width='300px' />
 </div>
-;T;@=I"/mision/;T{;{	;I"£<!DOCTYPE html>
+;T;@=I"/mision/;T{;{	;I"≥<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2008,7 +2008,7 @@ I"B<div class='val'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -2046,7 +2046,7 @@ I"]<div class='val'>
   <br />
   <img height='400px' src='img/success.jpg' width='450px' />
 </div>
-;T;@CI"/vision/;T{;{	;I"≤<!DOCTYPE html>
+;T;@CI"/vision/;T{;{	;I"¬<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2135,7 +2135,7 @@ I"]<div class='val'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -2174,7 +2174,7 @@ I"d<div class='val'>
   <br />
   <img height='400px' src='img/bussiness.jpg' width='300px' />
 </div>
-;T;@II"/valores/;T{;{	;I"Y<!DOCTYPE html>
+;T;@II"/valores/;T{;{	;I"i<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2282,7 +2282,7 @@ I"d<div class='val'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -2351,7 +2351,7 @@ I"s<div class='val'>
   <br />
   <img height='400px' src='img/leader.jpg' width='400px' />
 </div>
-;T;@OI"/servicios/;T{;{	;I"<!DOCTYPE html>
+;T;@OI"/servicios/;T{;{	;I")<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2444,7 +2444,7 @@ I"s<div class='val'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -2490,7 +2490,7 @@ I"´<div id='services'>
   <img height='300px' src='img/red.jpg' width='400px' />
   <img height='300px' src='img/tablet.jpg' width='400px' />
 </div>
-;T;@UI"/proyectos/;T{;{	;I"‘<!DOCTYPE html>
+;T;@UI"/proyectos/;T{;{	;I"‰<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2630,7 +2630,7 @@ I"´<div id='services'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -2884,7 +2884,7 @@ I"P<link href='../stylesheets/stylesheet.css' media='screen' rel='stylesheet' 
     <li>Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.</li>
   </ul>
 </div>
-;T;@jI"/siiseem/;T{;{	;I"ì<!DOCTYPE html>
+;T;@jI"/siiseem/;T{;{	;I"£<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -2977,7 +2977,7 @@ I"P<link href='../stylesheets/stylesheet.css' media='screen' rel='stylesheet' 
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -3027,7 +3027,7 @@ I"%<div class='proyecto'>
     <li>Responder a los requerimientos de informaci&oacute;n de manera oportuna utilizando tecnolog&iacute;a m&oacute;vil.</li>
   </ul>
 </div>
-;T;@pI"/preeabc/;T{;{	;I"ü<!DOCTYPE html>
+;T;@pI"/preeabc/;T{;{	;I"Ø<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3123,7 +3123,7 @@ I"%<div class='proyecto'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -3179,7 +3179,7 @@ I"<div class='proyecto'>
     <li>Flexibilidad en la infrestuctura.</li>
   </ul>
 </div>
-;T;@vI"/img/preeabc/;T{;{ I"/img/safec/;T{;{ I"/safec/;T{;{	;I"<!DOCTYPE html>
+;T;@vI"/img/preeabc/;T{;{ I"/img/safec/;T{;{ I"/safec/;T{;{	;I"(<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3271,7 +3271,7 @@ I"<div class='proyecto'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -3319,7 +3319,7 @@ I"≤<div class='proyecto'>
     <li>Informar de manera oportuna sobre la presencia de condiciones que propenden a la aparici&oacute;n de plagas y enfermedades.</li>
   </ul>
 </div>
-;T;@}I"/img/rimdm/;T{;{ I"/rimdm/;T{;{	;I"Ê<!DOCTYPE html>
+;T;@}I"/img/rimdm/;T{;{ I"/rimdm/;T{;{	;I"ˆ<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3405,7 +3405,7 @@ I"≤<div class='proyecto'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -3441,7 +3441,7 @@ I"∞<div class='proyecto'>
   <br />
   <br />
 </div>
-;T;@ÜI"/img/secda/;T{;{ I"/secda/;T{;{	;I"√<!DOCTYPE html>
+;T;@ÜI"/img/secda/;T{;{ I"/secda/;T{;{	;I"”<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3534,7 +3534,7 @@ I"∞<div class='proyecto'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -3583,7 +3583,7 @@ I"U<div class='proyecto'>
   <img height='400px' src='img/secda.png' width='500px' />
   <br />
 </div>
-;T;@èI"/img/sepcc/;T{;{ I"/sepcc/;T{;{	;I",<!DOCTYPE html>
+;T;@èI"/img/sepcc/;T{;{ I"/sepcc/;T{;{	;I"<<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3669,7 +3669,7 @@ I"U<div class='proyecto'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -3705,7 +3705,7 @@ I"ˆ<div class='proyecto'>
   <br />
   <br />
 </div>
-;T;@òI"/img/sigvtec/;T{;{ I"/sigvtec/;T{;{	;I"G<!DOCTYPE html>
+;T;@òI"/img/sigvtec/;T{;{ I"/sigvtec/;T{;{	;I"W<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3791,7 +3791,7 @@ I"ˆ<div class='proyecto'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -3828,7 +3828,7 @@ I"<div class='proyecto'>
   <br />
 </div>
 ;T;@°I"
-/sic/;T{;{	;I"·<!DOCTYPE html>
+/sic/;T{;{	;I"Ò<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -3914,7 +3914,7 @@ I"<div class='proyecto'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -3951,7 +3951,7 @@ I"´<div class='proyecto'>
   <br />
 </div>
 ;T;@ßI"/img/sic/;T{;{ I"/img/mav/;T{;{ I"
-/mav/;T{;{	;I"<!DOCTYPE html>
+/mav/;T{;{	;I" <!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -4045,7 +4045,7 @@ I"´<div class='proyecto'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
@@ -4096,7 +4096,7 @@ I"z<div class='proyecto'>
     <li>Transacciones comerciales: trueques, subastas, intercambios.</li>
   </ul>
 </div>
-;T;@≥I"/img/dot/;T{;{ I"/img/tec/;T{;{ I"/img/red/;T{;{ I"/img/tablet/;T{;{ I"/img/tablet2/;T{;{ I"/img/internet/;T{;{ I"/img/consultoria/;T{;{ I"/img/earth_one_finger/;T{;{ I"/img/success/;T{;{ I"/img/bussiness/;T{;{ I"/img/leader/;T{;{ I"/contacto/;T{;{	;I"D<!DOCTYPE html>
+;T;@≥I"/img/dot/;T{;{ I"/img/tec/;T{;{ I"/img/red/;T{;{ I"/img/tablet/;T{;{ I"/img/tablet2/;T{;{ I"/img/internet/;T{;{ I"/img/consultoria/;T{;{ I"/img/earth_one_finger/;T{;{ I"/img/success/;T{;{ I"/img/bussiness/;T{;{ I"/img/leader/;T{;{ I"/contacto/;T{;{	;I"T<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
@@ -4192,7 +4192,7 @@ I"z<div class='proyecto'>
       <div id='footer'>
         &copy; Todos los derechos reservados a JaguarSoft (2012)
         <p>
-          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020'>Images from twobee / FreeDigitalPhotos.net</a>
+          <a href='http://www.freedigitalphotos.net/images/view_photog.php?photogid=2020' target='_blank'>Images from twobee / FreeDigitalPhotos.net</a>
         </p>
       </div>
     </div>
